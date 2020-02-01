@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03815C9223E2B944009F9A1C /* BPPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815C9123E2B944009F9A1C /* BPPhone.m */; };
+		03815C9523E2B97F009F9A1C /* BPBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815C9423E2B97F009F9A1C /* BPBuilder.m */; };
+		03815C9823E2BA0C009F9A1C /* BPIphoneXRBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815C9723E2BA0C009F9A1C /* BPIphoneXRBuilder.m */; };
+		03815C9B23E2BA9C009F9A1C /* BPMI8Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815C9A23E2BA9C009F9A1C /* BPMI8Builder.m */; };
+		03815C9E23E2BB20009F9A1C /* BPDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815C9D23E2BB20009F9A1C /* BPDirector.m */; };
+		03815CA123E2BBE3009F9A1C /* BuilderPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CA023E2BBE3009F9A1C /* BuilderPattern.m */; };
+		03815CA423E3F47D009F9A1C /* PPUniversityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CA323E3F47D009F9A1C /* PPUniversityInfo.m */; };
+		03815CA823E3F4F0009F9A1C /* PrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CA723E3F4F0009F9A1C /* PrototypePattern.m */; };
+		03815CAB23E3F66B009F9A1C /* PPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CAA23E3F66B009F9A1C /* PPResume.m */; };
+		03815CAE23E40651009F9A1C /* FacadePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CAD23E40651009F9A1C /* FacadePattern.m */; };
+		03815CB223E4066E009F9A1C /* FPHomeDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CB123E4066E009F9A1C /* FPHomeDevice.m */; };
+		03815CB523E406A0009F9A1C /* FPAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CB423E406A0009F9A1C /* FPAirConditioner.m */; };
+		03815CB823E4070F009F9A1C /* FPCDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CB723E4070F009F9A1C /* FPCDPlayer.m */; };
+		03815CBB23E4072C009F9A1C /* FPDVDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CBA23E4072C009F9A1C /* FPDVDPlayer.m */; };
+		03815CBE23E40744009F9A1C /* FPVoiceBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CBD23E40744009F9A1C /* FPVoiceBox.m */; };
+		03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CC023E407ED009F9A1C /* FPProjecter.m */; };
+		03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */; };
+		03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E123DF2EA20095AE17 /* AppDelegate.m */; };
+		03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E423DF2EA20095AE17 /* SceneDelegate.m */; };
+		03F641E823DF2EA20095AE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E723DF2EA20095AE17 /* ViewController.m */; };
+		03F641EB23DF2EA20095AE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F641E923DF2EA20095AE17 /* Main.storyboard */; };
+		03F641ED23DF2EA40095AE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F641EC23DF2EA40095AE17 /* Assets.xcassets */; };
+		03F641F023DF2EA40095AE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F641EE23DF2EA40095AE17 /* LaunchScreen.storyboard */; };
+		03F641F323DF2EA40095AE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641F223DF2EA40095AE17 /* main.m */; };
+		03F641FB23DF2EB20095AE17 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641FA23DF2EB20095AE17 /* Phone.m */; };
+		03F641FE23DF2EBA0095AE17 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641FD23DF2EBA0095AE17 /* Iphone.m */; };
+		03F6420123DF2EC20095AE17 /* MPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420023DF2EC20095AE17 /* MPhone.m */; };
+		03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420323DF2ECF0095AE17 /* HWPhone.m */; };
+		03F6420723DF2EDA0095AE17 /* PhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420623DF2EDA0095AE17 /* PhoneFactory.m */; };
+		03F6420A23DF2EE20095AE17 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420923DF2EE20095AE17 /* Store.m */; };
+		03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420E23E071EC0095AE17 /* FMPPhoneFacotry.m */; };
+		03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421123E071FD0095AE17 /* FMPIPhoneFactory.m */; };
+		03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421423E072090095AE17 /* FMPMIPhoneFactory.m */; };
+		03F6421823E072140095AE17 /* FMPHWPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421723E072140095AE17 /* FMPHWPhoneFactory.m */; };
+		03F6421C23E07ED60095AE17 /* AFPComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421B23E07ED60095AE17 /* AFPComputer.m */; };
+		03F6421F23E07EE60095AE17 /* AFPPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421E23E07EE60095AE17 /* AFPPhone.m */; };
+		03F6422223E07F0D0095AE17 /* AFPMacbookComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6422123E07F0D0095AE17 /* AFPMacbookComputer.m */; };
+		03F6422523E07F210095AE17 /* AFPMIComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6422423E07F210095AE17 /* AFPMIComputer.m */; };
+		03F6422823E07F2C0095AE17 /* AFPHWComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6422723E07F2C0095AE17 /* AFPHWComputer.m */; };
+		03F6422B23E07F9E0095AE17 /* AFPFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6422A23E07F9E0095AE17 /* AFPFactory.m */; };
+		03F6422E23E07FEF0095AE17 /* AFPIphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6422D23E07FEF0095AE17 /* AFPIphone.m */; };
+		03F6423123E07FF90095AE17 /* AFPMIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6423023E07FF90095AE17 /* AFPMIPhone.m */; };
+		03F6423423E080010095AE17 /* AFPHWPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6423323E080010095AE17 /* AFPHWPhone.m */; };
+		03F6423723E0804F0095AE17 /* AFPAppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6423623E0804F0095AE17 /* AFPAppleFactory.m */; };
+		03F6423A23E0805C0095AE17 /* AFPMIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6423923E0805C0095AE17 /* AFPMIFactory.m */; };
+		03F6423D23E080660095AE17 /* AFPHWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6423C23E080660095AE17 /* AFPHWFactory.m */; };
+		03F6424123E134620095AE17 /* SPLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6424023E134620095AE17 /* SPLogManager.m */; };
+		03F6424623E14C380095AE17 /* PPHouseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6424523E14C380095AE17 /* PPHouseProxy.m */; };
+		03F6424923E14C880095AE17 /* PPHouseOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6424823E14C880095AE17 /* PPHouseOwner.m */; };
+		03F6424D23E154B50095AE17 /* DPSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6424C23E154B50095AE17 /* DPSalad.m */; };
+		03F6425023E154F20095AE17 /* DPSauceDecotator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6424F23E154F20095AE17 /* DPSauceDecotator.m */; };
+		03F6425323E155720095AE17 /* DPVegetableSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6425223E155720095AE17 /* DPVegetableSalad.m */; };
+		03F6425623E155830095AE17 /* DPChickenSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6425523E155830095AE17 /* DPChickenSalad.m */; };
+		03F6425923E155910095AE17 /* DPBeefSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6425823E155910095AE17 /* DPBeefSalad.m */; };
+		03F6425C23E156480095AE17 /* DPVinegarSauceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6425B23E156480095AE17 /* DPVinegarSauceDecorator.m */; };
+		03F6425F23E156B00095AE17 /* DPPeanutButterSauceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6425E23E156B00095AE17 /* DPPeanutButterSauceDecorator.m */; };
+		03F6426223E156FD0095AE17 /* DPBlueBerrySauceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6426123E156FD0095AE17 /* DPBlueBerrySauceDecorator.m */; };
+		03F6426523E15AB80095AE17 /* DecoratorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6426423E15AB80095AE17 /* DecoratorPattern.m */; };
+		03F6426923E15AE90095AE17 /* SimpleFactoryPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6426823E15AE90095AE17 /* SimpleFactoryPattern.m */; };
+		03F6426C23E15B6C0095AE17 /* FactoryMethodPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6426B23E15B6C0095AE17 /* FactoryMethodPattern.m */; };
+		03F6426F23E15BE60095AE17 /* AbstractFactoryPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6426E23E15BE60095AE17 /* AbstractFactoryPattern.m */; };
+		03F6427223E15CF90095AE17 /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6427123E15CF90095AE17 /* SingletonPattern.m */; };
+		03F6427523E15D400095AE17 /* ProxyPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6427423E15D400095AE17 /* ProxyPattern.m */; };
+		03F6427923E170650095AE17 /* AdapterPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6427823E170650095AE17 /* AdapterPattern.m */; };
+		03F6427D23E170FF0095AE17 /* APOldCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6427C23E170FF0095AE17 /* APOldCache.m */; };
+		03F6428323E173810095AE17 /* APNewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6428223E173810095AE17 /* APNewCache.m */; };
+		03F6428623E1745B0095AE17 /* APAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6428523E1745B0095AE17 /* APAdaptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03815C9023E2B944009F9A1C /* BPPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPPhone.h; sourceTree = "<group>"; };
+		03815C9123E2B944009F9A1C /* BPPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPPhone.m; sourceTree = "<group>"; };
+		03815C9323E2B97F009F9A1C /* BPBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPBuilder.h; sourceTree = "<group>"; };
+		03815C9423E2B97F009F9A1C /* BPBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPBuilder.m; sourceTree = "<group>"; };
+		03815C9623E2BA0C009F9A1C /* BPIphoneXRBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPIphoneXRBuilder.h; sourceTree = "<group>"; };
+		03815C9723E2BA0C009F9A1C /* BPIphoneXRBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPIphoneXRBuilder.m; sourceTree = "<group>"; };
+		03815C9923E2BA9C009F9A1C /* BPMI8Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPMI8Builder.h; sourceTree = "<group>"; };
+		03815C9A23E2BA9C009F9A1C /* BPMI8Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPMI8Builder.m; sourceTree = "<group>"; };
+		03815C9C23E2BB20009F9A1C /* BPDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPDirector.h; sourceTree = "<group>"; };
+		03815C9D23E2BB20009F9A1C /* BPDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDirector.m; sourceTree = "<group>"; };
+		03815C9F23E2BBE3009F9A1C /* BuilderPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderPattern.h; sourceTree = "<group>"; };
+		03815CA023E2BBE3009F9A1C /* BuilderPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderPattern.m; sourceTree = "<group>"; };
+		03815CA223E3F47D009F9A1C /* PPUniversityInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPUniversityInfo.h; sourceTree = "<group>"; };
+		03815CA323E3F47D009F9A1C /* PPUniversityInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPUniversityInfo.m; sourceTree = "<group>"; };
+		03815CA623E3F4F0009F9A1C /* PrototypePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePattern.h; sourceTree = "<group>"; };
+		03815CA723E3F4F0009F9A1C /* PrototypePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePattern.m; sourceTree = "<group>"; };
+		03815CA923E3F66B009F9A1C /* PPResume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPResume.h; sourceTree = "<group>"; };
+		03815CAA23E3F66B009F9A1C /* PPResume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPResume.m; sourceTree = "<group>"; };
+		03815CAC23E40651009F9A1C /* FacadePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadePattern.h; sourceTree = "<group>"; };
+		03815CAD23E40651009F9A1C /* FacadePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadePattern.m; sourceTree = "<group>"; };
+		03815CB023E4066E009F9A1C /* FPHomeDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeDevice.h; sourceTree = "<group>"; };
+		03815CB123E4066E009F9A1C /* FPHomeDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeDevice.m; sourceTree = "<group>"; };
+		03815CB323E406A0009F9A1C /* FPAirConditioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAirConditioner.h; sourceTree = "<group>"; };
+		03815CB423E406A0009F9A1C /* FPAirConditioner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAirConditioner.m; sourceTree = "<group>"; };
+		03815CB623E4070F009F9A1C /* FPCDPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPCDPlayer.h; sourceTree = "<group>"; };
+		03815CB723E4070F009F9A1C /* FPCDPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPCDPlayer.m; sourceTree = "<group>"; };
+		03815CB923E4072C009F9A1C /* FPDVDPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPDVDPlayer.h; sourceTree = "<group>"; };
+		03815CBA23E4072C009F9A1C /* FPDVDPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPDVDPlayer.m; sourceTree = "<group>"; };
+		03815CBC23E40744009F9A1C /* FPVoiceBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPVoiceBox.h; sourceTree = "<group>"; };
+		03815CBD23E40744009F9A1C /* FPVoiceBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPVoiceBox.m; sourceTree = "<group>"; };
+		03815CBF23E407ED009F9A1C /* FPProjecter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPProjecter.h; sourceTree = "<group>"; };
+		03815CC023E407ED009F9A1C /* FPProjecter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPProjecter.m; sourceTree = "<group>"; };
+		03815CC223E40858009F9A1C /* FPHomeDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeDeviceManager.h; sourceTree = "<group>"; };
+		03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeDeviceManager.m; sourceTree = "<group>"; };
+		03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFactoryPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F641E023DF2EA20095AE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03F641E123DF2EA20095AE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03F641E323DF2EA20095AE17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		03F641E423DF2EA20095AE17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		03F641E623DF2EA20095AE17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03F641E723DF2EA20095AE17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03F641EA23DF2EA20095AE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F641EC23DF2EA40095AE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F641EF23DF2EA40095AE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F641F123DF2EA40095AE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F641F223DF2EA40095AE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03F641F923DF2EB20095AE17 /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		03F641FA23DF2EB20095AE17 /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		03F641FC23DF2EBA0095AE17 /* Iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
+		03F641FD23DF2EBA0095AE17 /* Iphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
+		03F641FF23DF2EC20095AE17 /* MPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPhone.h; sourceTree = "<group>"; };
+		03F6420023DF2EC20095AE17 /* MPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPhone.m; sourceTree = "<group>"; };
+		03F6420223DF2ECF0095AE17 /* HWPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPhone.h; sourceTree = "<group>"; };
+		03F6420323DF2ECF0095AE17 /* HWPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPhone.m; sourceTree = "<group>"; };
+		03F6420523DF2EDA0095AE17 /* PhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactory.h; sourceTree = "<group>"; };
+		03F6420623DF2EDA0095AE17 /* PhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneFactory.m; sourceTree = "<group>"; };
+		03F6420823DF2EE20095AE17 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		03F6420923DF2EE20095AE17 /* Store.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		03F6420D23E071EC0095AE17 /* FMPPhoneFacotry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPPhoneFacotry.h; sourceTree = "<group>"; };
+		03F6420E23E071EC0095AE17 /* FMPPhoneFacotry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPPhoneFacotry.m; sourceTree = "<group>"; };
+		03F6421023E071FD0095AE17 /* FMPIPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPIPhoneFactory.h; sourceTree = "<group>"; };
+		03F6421123E071FD0095AE17 /* FMPIPhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPIPhoneFactory.m; sourceTree = "<group>"; };
+		03F6421323E072090095AE17 /* FMPMIPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPMIPhoneFactory.h; sourceTree = "<group>"; };
+		03F6421423E072090095AE17 /* FMPMIPhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPMIPhoneFactory.m; sourceTree = "<group>"; };
+		03F6421623E072140095AE17 /* FMPHWPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPHWPhoneFactory.h; sourceTree = "<group>"; };
+		03F6421723E072140095AE17 /* FMPHWPhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPHWPhoneFactory.m; sourceTree = "<group>"; };
+		03F6421A23E07ED60095AE17 /* AFPComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPComputer.h; sourceTree = "<group>"; };
+		03F6421B23E07ED60095AE17 /* AFPComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPComputer.m; sourceTree = "<group>"; };
+		03F6421D23E07EE60095AE17 /* AFPPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPPhone.h; sourceTree = "<group>"; };
+		03F6421E23E07EE60095AE17 /* AFPPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPPhone.m; sourceTree = "<group>"; };
+		03F6422023E07F0D0095AE17 /* AFPMacbookComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPMacbookComputer.h; sourceTree = "<group>"; };
+		03F6422123E07F0D0095AE17 /* AFPMacbookComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPMacbookComputer.m; sourceTree = "<group>"; };
+		03F6422323E07F210095AE17 /* AFPMIComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPMIComputer.h; sourceTree = "<group>"; };
+		03F6422423E07F210095AE17 /* AFPMIComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPMIComputer.m; sourceTree = "<group>"; };
+		03F6422623E07F2C0095AE17 /* AFPHWComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPHWComputer.h; sourceTree = "<group>"; };
+		03F6422723E07F2C0095AE17 /* AFPHWComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPHWComputer.m; sourceTree = "<group>"; };
+		03F6422923E07F9E0095AE17 /* AFPFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPFactory.h; sourceTree = "<group>"; };
+		03F6422A23E07F9E0095AE17 /* AFPFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPFactory.m; sourceTree = "<group>"; };
+		03F6422C23E07FEF0095AE17 /* AFPIphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPIphone.h; sourceTree = "<group>"; };
+		03F6422D23E07FEF0095AE17 /* AFPIphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPIphone.m; sourceTree = "<group>"; };
+		03F6422F23E07FF90095AE17 /* AFPMIPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPMIPhone.h; sourceTree = "<group>"; };
+		03F6423023E07FF90095AE17 /* AFPMIPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPMIPhone.m; sourceTree = "<group>"; };
+		03F6423223E080010095AE17 /* AFPHWPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPHWPhone.h; sourceTree = "<group>"; };
+		03F6423323E080010095AE17 /* AFPHWPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPHWPhone.m; sourceTree = "<group>"; };
+		03F6423523E0804F0095AE17 /* AFPAppleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPAppleFactory.h; sourceTree = "<group>"; };
+		03F6423623E0804F0095AE17 /* AFPAppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPAppleFactory.m; sourceTree = "<group>"; };
+		03F6423823E0805C0095AE17 /* AFPMIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPMIFactory.h; sourceTree = "<group>"; };
+		03F6423923E0805C0095AE17 /* AFPMIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPMIFactory.m; sourceTree = "<group>"; };
+		03F6423B23E080660095AE17 /* AFPHWFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFPHWFactory.h; sourceTree = "<group>"; };
+		03F6423C23E080660095AE17 /* AFPHWFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPHWFactory.m; sourceTree = "<group>"; };
+		03F6423F23E134620095AE17 /* SPLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLogManager.h; sourceTree = "<group>"; };
+		03F6424023E134620095AE17 /* SPLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLogManager.m; sourceTree = "<group>"; };
+		03F6424323E14C120095AE17 /* PPPaymentInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPaymentInterface.h; sourceTree = "<group>"; };
+		03F6424423E14C380095AE17 /* PPHouseProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPHouseProxy.h; sourceTree = "<group>"; };
+		03F6424523E14C380095AE17 /* PPHouseProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHouseProxy.m; sourceTree = "<group>"; };
+		03F6424723E14C880095AE17 /* PPHouseOwner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPHouseOwner.h; sourceTree = "<group>"; };
+		03F6424823E14C880095AE17 /* PPHouseOwner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPHouseOwner.m; sourceTree = "<group>"; };
+		03F6424B23E154B50095AE17 /* DPSalad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSalad.h; sourceTree = "<group>"; };
+		03F6424C23E154B50095AE17 /* DPSalad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSalad.m; sourceTree = "<group>"; };
+		03F6424E23E154F20095AE17 /* DPSauceDecotator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSauceDecotator.h; sourceTree = "<group>"; };
+		03F6424F23E154F20095AE17 /* DPSauceDecotator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSauceDecotator.m; sourceTree = "<group>"; };
+		03F6425123E155720095AE17 /* DPVegetableSalad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPVegetableSalad.h; sourceTree = "<group>"; };
+		03F6425223E155720095AE17 /* DPVegetableSalad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPVegetableSalad.m; sourceTree = "<group>"; };
+		03F6425423E155830095AE17 /* DPChickenSalad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPChickenSalad.h; sourceTree = "<group>"; };
+		03F6425523E155830095AE17 /* DPChickenSalad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPChickenSalad.m; sourceTree = "<group>"; };
+		03F6425723E155910095AE17 /* DPBeefSalad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBeefSalad.h; sourceTree = "<group>"; };
+		03F6425823E155910095AE17 /* DPBeefSalad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBeefSalad.m; sourceTree = "<group>"; };
+		03F6425A23E156480095AE17 /* DPVinegarSauceDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPVinegarSauceDecorator.h; sourceTree = "<group>"; };
+		03F6425B23E156480095AE17 /* DPVinegarSauceDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPVinegarSauceDecorator.m; sourceTree = "<group>"; };
+		03F6425D23E156B00095AE17 /* DPPeanutButterSauceDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPPeanutButterSauceDecorator.h; sourceTree = "<group>"; };
+		03F6425E23E156B00095AE17 /* DPPeanutButterSauceDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPPeanutButterSauceDecorator.m; sourceTree = "<group>"; };
+		03F6426023E156FD0095AE17 /* DPBlueBerrySauceDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPBlueBerrySauceDecorator.h; sourceTree = "<group>"; };
+		03F6426123E156FD0095AE17 /* DPBlueBerrySauceDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPBlueBerrySauceDecorator.m; sourceTree = "<group>"; };
+		03F6426323E15AB80095AE17 /* DecoratorPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorPattern.h; sourceTree = "<group>"; };
+		03F6426423E15AB80095AE17 /* DecoratorPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPattern.m; sourceTree = "<group>"; };
+		03F6426623E15AD50095AE17 /* TestPatternProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPatternProtocol.h; sourceTree = "<group>"; };
+		03F6426723E15AE90095AE17 /* SimpleFactoryPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryPattern.h; sourceTree = "<group>"; };
+		03F6426823E15AE90095AE17 /* SimpleFactoryPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryPattern.m; sourceTree = "<group>"; };
+		03F6426A23E15B6C0095AE17 /* FactoryMethodPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryMethodPattern.h; sourceTree = "<group>"; };
+		03F6426B23E15B6C0095AE17 /* FactoryMethodPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodPattern.m; sourceTree = "<group>"; };
+		03F6426D23E15BE60095AE17 /* AbstractFactoryPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryPattern.h; sourceTree = "<group>"; };
+		03F6426E23E15BE60095AE17 /* AbstractFactoryPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryPattern.m; sourceTree = "<group>"; };
+		03F6427023E15CF90095AE17 /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
+		03F6427123E15CF90095AE17 /* SingletonPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
+		03F6427323E15D400095AE17 /* ProxyPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyPattern.h; sourceTree = "<group>"; };
+		03F6427423E15D400095AE17 /* ProxyPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPattern.m; sourceTree = "<group>"; };
+		03F6427723E170650095AE17 /* AdapterPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterPattern.h; sourceTree = "<group>"; };
+		03F6427823E170650095AE17 /* AdapterPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterPattern.m; sourceTree = "<group>"; };
+		03F6427A23E1709D0095AE17 /* APOldCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APOldCacheProtocol.h; sourceTree = "<group>"; };
+		03F6427B23E170FF0095AE17 /* APOldCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APOldCache.h; sourceTree = "<group>"; };
+		03F6427C23E170FF0095AE17 /* APOldCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APOldCache.m; sourceTree = "<group>"; };
+		03F6427E23E173390095AE17 /* APNewCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNewCacheProtocol.h; sourceTree = "<group>"; };
+		03F6428123E173810095AE17 /* APNewCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNewCache.h; sourceTree = "<group>"; };
+		03F6428223E173810095AE17 /* APNewCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNewCache.m; sourceTree = "<group>"; };
+		03F6428423E1745B0095AE17 /* APAdaptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAdaptor.h; sourceTree = "<group>"; };
+		03F6428523E1745B0095AE17 /* APAdaptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAdaptor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F641DA23DF2EA20095AE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03815C8F23E2B811009F9A1C /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815C9023E2B944009F9A1C /* BPPhone.h */,
+				03815C9123E2B944009F9A1C /* BPPhone.m */,
+				03815C9323E2B97F009F9A1C /* BPBuilder.h */,
+				03815C9423E2B97F009F9A1C /* BPBuilder.m */,
+				03815C9623E2BA0C009F9A1C /* BPIphoneXRBuilder.h */,
+				03815C9723E2BA0C009F9A1C /* BPIphoneXRBuilder.m */,
+				03815C9923E2BA9C009F9A1C /* BPMI8Builder.h */,
+				03815C9A23E2BA9C009F9A1C /* BPMI8Builder.m */,
+				03815C9C23E2BB20009F9A1C /* BPDirector.h */,
+				03815C9D23E2BB20009F9A1C /* BPDirector.m */,
+				03815C9F23E2BBE3009F9A1C /* BuilderPattern.h */,
+				03815CA023E2BBE3009F9A1C /* BuilderPattern.m */,
+			);
+			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		03815CA523E3F484009F9A1C /* PrototypePattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815CA223E3F47D009F9A1C /* PPUniversityInfo.h */,
+				03815CA323E3F47D009F9A1C /* PPUniversityInfo.m */,
+				03815CA623E3F4F0009F9A1C /* PrototypePattern.h */,
+				03815CA723E3F4F0009F9A1C /* PrototypePattern.m */,
+				03815CA923E3F66B009F9A1C /* PPResume.h */,
+				03815CAA23E3F66B009F9A1C /* PPResume.m */,
+			);
+			path = PrototypePattern;
+			sourceTree = "<group>";
+		};
+		03815CAF23E4065A009F9A1C /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815CAC23E40651009F9A1C /* FacadePattern.h */,
+				03815CAD23E40651009F9A1C /* FacadePattern.m */,
+				03815CB023E4066E009F9A1C /* FPHomeDevice.h */,
+				03815CB123E4066E009F9A1C /* FPHomeDevice.m */,
+				03815CB323E406A0009F9A1C /* FPAirConditioner.h */,
+				03815CB423E406A0009F9A1C /* FPAirConditioner.m */,
+				03815CB623E4070F009F9A1C /* FPCDPlayer.h */,
+				03815CB723E4070F009F9A1C /* FPCDPlayer.m */,
+				03815CB923E4072C009F9A1C /* FPDVDPlayer.h */,
+				03815CBA23E4072C009F9A1C /* FPDVDPlayer.m */,
+				03815CBC23E40744009F9A1C /* FPVoiceBox.h */,
+				03815CBD23E40744009F9A1C /* FPVoiceBox.m */,
+				03815CBF23E407ED009F9A1C /* FPProjecter.h */,
+				03815CC023E407ED009F9A1C /* FPProjecter.m */,
+				03815CC223E40858009F9A1C /* FPHomeDeviceManager.h */,
+				03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		03F641D423DF2EA20095AE17 = {
+			isa = PBXGroup;
+			children = (
+				03F641DF23DF2EA20095AE17 /* SimpleFactoryPatternDemo */,
+				03F641DE23DF2EA20095AE17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F641DE23DF2EA20095AE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F641DF23DF2EA20095AE17 /* SimpleFactoryPatternDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03815CAF23E4065A009F9A1C /* FacadePattern */,
+				03815CA523E3F484009F9A1C /* PrototypePattern */,
+				03815C8F23E2B811009F9A1C /* BuilderPattern */,
+				03F6427623E170540095AE17 /* AdapterPattern */,
+				03F6424A23E154A10095AE17 /* DecoratorPattern */,
+				03F6424223E14BCF0095AE17 /* ProxyPattern */,
+				03F6423E23E134380095AE17 /* SingletonPattern */,
+				03F6421923E07EC00095AE17 /* AbstractFactoryPattern */,
+				03F6420C23E071B10095AE17 /* FactoryMethodPattern */,
+				03F6420B23DF30C70095AE17 /* SimpleFactoryPattern */,
+				03F641E023DF2EA20095AE17 /* AppDelegate.h */,
+				03F641E123DF2EA20095AE17 /* AppDelegate.m */,
+				03F641E323DF2EA20095AE17 /* SceneDelegate.h */,
+				03F641E423DF2EA20095AE17 /* SceneDelegate.m */,
+				03F641E623DF2EA20095AE17 /* ViewController.h */,
+				03F641E723DF2EA20095AE17 /* ViewController.m */,
+				03F641E923DF2EA20095AE17 /* Main.storyboard */,
+				03F641EC23DF2EA40095AE17 /* Assets.xcassets */,
+				03F641EE23DF2EA40095AE17 /* LaunchScreen.storyboard */,
+				03F641F123DF2EA40095AE17 /* Info.plist */,
+				03F641F223DF2EA40095AE17 /* main.m */,
+				03F6426623E15AD50095AE17 /* TestPatternProtocol.h */,
+			);
+			path = SimpleFactoryPatternDemo;
+			sourceTree = "<group>";
+		};
+		03F6420B23DF30C70095AE17 /* SimpleFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F641F923DF2EB20095AE17 /* Phone.h */,
+				03F641FA23DF2EB20095AE17 /* Phone.m */,
+				03F641FC23DF2EBA0095AE17 /* Iphone.h */,
+				03F641FD23DF2EBA0095AE17 /* Iphone.m */,
+				03F641FF23DF2EC20095AE17 /* MPhone.h */,
+				03F6420023DF2EC20095AE17 /* MPhone.m */,
+				03F6420223DF2ECF0095AE17 /* HWPhone.h */,
+				03F6420323DF2ECF0095AE17 /* HWPhone.m */,
+				03F6420523DF2EDA0095AE17 /* PhoneFactory.h */,
+				03F6420623DF2EDA0095AE17 /* PhoneFactory.m */,
+				03F6420823DF2EE20095AE17 /* Store.h */,
+				03F6420923DF2EE20095AE17 /* Store.m */,
+				03F6426723E15AE90095AE17 /* SimpleFactoryPattern.h */,
+				03F6426823E15AE90095AE17 /* SimpleFactoryPattern.m */,
+			);
+			path = SimpleFactoryPattern;
+			sourceTree = "<group>";
+		};
+		03F6420C23E071B10095AE17 /* FactoryMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6420D23E071EC0095AE17 /* FMPPhoneFacotry.h */,
+				03F6420E23E071EC0095AE17 /* FMPPhoneFacotry.m */,
+				03F6421023E071FD0095AE17 /* FMPIPhoneFactory.h */,
+				03F6421123E071FD0095AE17 /* FMPIPhoneFactory.m */,
+				03F6421323E072090095AE17 /* FMPMIPhoneFactory.h */,
+				03F6421423E072090095AE17 /* FMPMIPhoneFactory.m */,
+				03F6421623E072140095AE17 /* FMPHWPhoneFactory.h */,
+				03F6421723E072140095AE17 /* FMPHWPhoneFactory.m */,
+				03F6426A23E15B6C0095AE17 /* FactoryMethodPattern.h */,
+				03F6426B23E15B6C0095AE17 /* FactoryMethodPattern.m */,
+			);
+			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		03F6421923E07EC00095AE17 /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6421A23E07ED60095AE17 /* AFPComputer.h */,
+				03F6421B23E07ED60095AE17 /* AFPComputer.m */,
+				03F6422023E07F0D0095AE17 /* AFPMacbookComputer.h */,
+				03F6422123E07F0D0095AE17 /* AFPMacbookComputer.m */,
+				03F6422323E07F210095AE17 /* AFPMIComputer.h */,
+				03F6422423E07F210095AE17 /* AFPMIComputer.m */,
+				03F6422623E07F2C0095AE17 /* AFPHWComputer.h */,
+				03F6422723E07F2C0095AE17 /* AFPHWComputer.m */,
+				03F6421D23E07EE60095AE17 /* AFPPhone.h */,
+				03F6421E23E07EE60095AE17 /* AFPPhone.m */,
+				03F6422C23E07FEF0095AE17 /* AFPIphone.h */,
+				03F6422D23E07FEF0095AE17 /* AFPIphone.m */,
+				03F6422F23E07FF90095AE17 /* AFPMIPhone.h */,
+				03F6423023E07FF90095AE17 /* AFPMIPhone.m */,
+				03F6423223E080010095AE17 /* AFPHWPhone.h */,
+				03F6423323E080010095AE17 /* AFPHWPhone.m */,
+				03F6422923E07F9E0095AE17 /* AFPFactory.h */,
+				03F6422A23E07F9E0095AE17 /* AFPFactory.m */,
+				03F6423523E0804F0095AE17 /* AFPAppleFactory.h */,
+				03F6423623E0804F0095AE17 /* AFPAppleFactory.m */,
+				03F6423823E0805C0095AE17 /* AFPMIFactory.h */,
+				03F6423923E0805C0095AE17 /* AFPMIFactory.m */,
+				03F6423B23E080660095AE17 /* AFPHWFactory.h */,
+				03F6423C23E080660095AE17 /* AFPHWFactory.m */,
+				03F6426D23E15BE60095AE17 /* AbstractFactoryPattern.h */,
+				03F6426E23E15BE60095AE17 /* AbstractFactoryPattern.m */,
+			);
+			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		03F6423E23E134380095AE17 /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6423F23E134620095AE17 /* SPLogManager.h */,
+				03F6424023E134620095AE17 /* SPLogManager.m */,
+				03F6427023E15CF90095AE17 /* SingletonPattern.h */,
+				03F6427123E15CF90095AE17 /* SingletonPattern.m */,
+			);
+			path = SingletonPattern;
+			sourceTree = "<group>";
+		};
+		03F6424223E14BCF0095AE17 /* ProxyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6424323E14C120095AE17 /* PPPaymentInterface.h */,
+				03F6424423E14C380095AE17 /* PPHouseProxy.h */,
+				03F6424523E14C380095AE17 /* PPHouseProxy.m */,
+				03F6424723E14C880095AE17 /* PPHouseOwner.h */,
+				03F6424823E14C880095AE17 /* PPHouseOwner.m */,
+				03F6427323E15D400095AE17 /* ProxyPattern.h */,
+				03F6427423E15D400095AE17 /* ProxyPattern.m */,
+			);
+			path = ProxyPattern;
+			sourceTree = "<group>";
+		};
+		03F6424A23E154A10095AE17 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6424B23E154B50095AE17 /* DPSalad.h */,
+				03F6424C23E154B50095AE17 /* DPSalad.m */,
+				03F6425123E155720095AE17 /* DPVegetableSalad.h */,
+				03F6425223E155720095AE17 /* DPVegetableSalad.m */,
+				03F6425423E155830095AE17 /* DPChickenSalad.h */,
+				03F6425523E155830095AE17 /* DPChickenSalad.m */,
+				03F6425723E155910095AE17 /* DPBeefSalad.h */,
+				03F6425823E155910095AE17 /* DPBeefSalad.m */,
+				03F6424E23E154F20095AE17 /* DPSauceDecotator.h */,
+				03F6424F23E154F20095AE17 /* DPSauceDecotator.m */,
+				03F6425A23E156480095AE17 /* DPVinegarSauceDecorator.h */,
+				03F6425B23E156480095AE17 /* DPVinegarSauceDecorator.m */,
+				03F6425D23E156B00095AE17 /* DPPeanutButterSauceDecorator.h */,
+				03F6425E23E156B00095AE17 /* DPPeanutButterSauceDecorator.m */,
+				03F6426023E156FD0095AE17 /* DPBlueBerrySauceDecorator.h */,
+				03F6426123E156FD0095AE17 /* DPBlueBerrySauceDecorator.m */,
+				03F6426323E15AB80095AE17 /* DecoratorPattern.h */,
+				03F6426423E15AB80095AE17 /* DecoratorPattern.m */,
+			);
+			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		03F6427623E170540095AE17 /* AdapterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03F6427723E170650095AE17 /* AdapterPattern.h */,
+				03F6427823E170650095AE17 /* AdapterPattern.m */,
+				03F6427A23E1709D0095AE17 /* APOldCacheProtocol.h */,
+				03F6427B23E170FF0095AE17 /* APOldCache.h */,
+				03F6427C23E170FF0095AE17 /* APOldCache.m */,
+				03F6427E23E173390095AE17 /* APNewCacheProtocol.h */,
+				03F6428123E173810095AE17 /* APNewCache.h */,
+				03F6428223E173810095AE17 /* APNewCache.m */,
+				03F6428423E1745B0095AE17 /* APAdaptor.h */,
+				03F6428523E1745B0095AE17 /* APAdaptor.m */,
+			);
+			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F641DC23DF2EA20095AE17 /* SimpleFactoryPatternDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F641F623DF2EA40095AE17 /* Build configuration list for PBXNativeTarget "SimpleFactoryPatternDemo" */;
+			buildPhases = (
+				03F641D923DF2EA20095AE17 /* Sources */,
+				03F641DA23DF2EA20095AE17 /* Frameworks */,
+				03F641DB23DF2EA20095AE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFactoryPatternDemo;
+			productName = SimpleFactoryPatternDemo;
+			productReference = 03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F641D523DF2EA20095AE17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "鲁本英";
+				TargetAttributes = {
+					03F641DC23DF2EA20095AE17 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 03F641D823DF2EA20095AE17 /* Build configuration list for PBXProject "SimpleFactoryPatternDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F641D423DF2EA20095AE17;
+			productRefGroup = 03F641DE23DF2EA20095AE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F641DC23DF2EA20095AE17 /* SimpleFactoryPatternDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F641DB23DF2EA20095AE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F641F023DF2EA40095AE17 /* LaunchScreen.storyboard in Resources */,
+				03F641ED23DF2EA40095AE17 /* Assets.xcassets in Resources */,
+				03F641EB23DF2EA20095AE17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F641D923DF2EA20095AE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6425023E154F20095AE17 /* DPSauceDecotator.m in Sources */,
+				03F641E823DF2EA20095AE17 /* ViewController.m in Sources */,
+				03F6423D23E080660095AE17 /* AFPHWFactory.m in Sources */,
+				03F6422823E07F2C0095AE17 /* AFPHWComputer.m in Sources */,
+				03F6426523E15AB80095AE17 /* DecoratorPattern.m in Sources */,
+				03F6424D23E154B50095AE17 /* DPSalad.m in Sources */,
+				03815C9823E2BA0C009F9A1C /* BPIphoneXRBuilder.m in Sources */,
+				03F6420123DF2EC20095AE17 /* MPhone.m in Sources */,
+				03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */,
+				03F6427223E15CF90095AE17 /* SingletonPattern.m in Sources */,
+				03815CB523E406A0009F9A1C /* FPAirConditioner.m in Sources */,
+				03F6425923E155910095AE17 /* DPBeefSalad.m in Sources */,
+				03F6425F23E156B00095AE17 /* DPPeanutButterSauceDecorator.m in Sources */,
+				03F6422E23E07FEF0095AE17 /* AFPIphone.m in Sources */,
+				03815CA423E3F47D009F9A1C /* PPUniversityInfo.m in Sources */,
+				03F6423723E0804F0095AE17 /* AFPAppleFactory.m in Sources */,
+				03F6424623E14C380095AE17 /* PPHouseProxy.m in Sources */,
+				03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */,
+				03F641FB23DF2EB20095AE17 /* Phone.m in Sources */,
+				03815C9223E2B944009F9A1C /* BPPhone.m in Sources */,
+				03815CBB23E4072C009F9A1C /* FPDVDPlayer.m in Sources */,
+				03F6420A23DF2EE20095AE17 /* Store.m in Sources */,
+				03815CB823E4070F009F9A1C /* FPCDPlayer.m in Sources */,
+				03F6423123E07FF90095AE17 /* AFPMIPhone.m in Sources */,
+				03F6422223E07F0D0095AE17 /* AFPMacbookComputer.m in Sources */,
+				03F6421F23E07EE60095AE17 /* AFPPhone.m in Sources */,
+				03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */,
+				03F641FE23DF2EBA0095AE17 /* Iphone.m in Sources */,
+				03F6426223E156FD0095AE17 /* DPBlueBerrySauceDecorator.m in Sources */,
+				03F6425623E155830095AE17 /* DPChickenSalad.m in Sources */,
+				03815C9523E2B97F009F9A1C /* BPBuilder.m in Sources */,
+				03815CA823E3F4F0009F9A1C /* PrototypePattern.m in Sources */,
+				03F6424923E14C880095AE17 /* PPHouseOwner.m in Sources */,
+				03F6422B23E07F9E0095AE17 /* AFPFactory.m in Sources */,
+				03815CAB23E3F66B009F9A1C /* PPResume.m in Sources */,
+				03815CAE23E40651009F9A1C /* FacadePattern.m in Sources */,
+				03F6420723DF2EDA0095AE17 /* PhoneFactory.m in Sources */,
+				03F6427923E170650095AE17 /* AdapterPattern.m in Sources */,
+				03F6425C23E156480095AE17 /* DPVinegarSauceDecorator.m in Sources */,
+				03F6424123E134620095AE17 /* SPLogManager.m in Sources */,
+				03815CB223E4066E009F9A1C /* FPHomeDevice.m in Sources */,
+				03F6428323E173810095AE17 /* APNewCache.m in Sources */,
+				03F6425323E155720095AE17 /* DPVegetableSalad.m in Sources */,
+				03F6427D23E170FF0095AE17 /* APOldCache.m in Sources */,
+				03F6421C23E07ED60095AE17 /* AFPComputer.m in Sources */,
+				03F6427523E15D400095AE17 /* ProxyPattern.m in Sources */,
+				03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */,
+				03F6422523E07F210095AE17 /* AFPMIComputer.m in Sources */,
+				03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */,
+				03F6428623E1745B0095AE17 /* APAdaptor.m in Sources */,
+				03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */,
+				03815C9E23E2BB20009F9A1C /* BPDirector.m in Sources */,
+				03F6426C23E15B6C0095AE17 /* FactoryMethodPattern.m in Sources */,
+				03815C9B23E2BA9C009F9A1C /* BPMI8Builder.m in Sources */,
+				03815CBE23E40744009F9A1C /* FPVoiceBox.m in Sources */,
+				03F6421823E072140095AE17 /* FMPHWPhoneFactory.m in Sources */,
+				03F6426923E15AE90095AE17 /* SimpleFactoryPattern.m in Sources */,
+				03F6426F23E15BE60095AE17 /* AbstractFactoryPattern.m in Sources */,
+				03F6423423E080010095AE17 /* AFPHWPhone.m in Sources */,
+				03F641F323DF2EA40095AE17 /* main.m in Sources */,
+				03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */,
+				03815CA123E2BBE3009F9A1C /* BuilderPattern.m in Sources */,
+				03F6423A23E0805C0095AE17 /* AFPMIFactory.m in Sources */,
+				03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03F641E923DF2EA20095AE17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F641EA23DF2EA20095AE17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F641EE23DF2EA40095AE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F641EF23DF2EA40095AE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F641F423DF2EA40095AE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03F641F523DF2EA40095AE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F641F723DF2EA40095AE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EH4QP2YKYS;
+				INFOPLIST_FILE = SimpleFactoryPatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lby.SimpleFactoryPatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F641F823DF2EA40095AE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EH4QP2YKYS;
+				INFOPLIST_FILE = SimpleFactoryPatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lby.SimpleFactoryPatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F641D823DF2EA20095AE17 /* Build configuration list for PBXProject "SimpleFactoryPatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F641F423DF2EA40095AE17 /* Debug */,
+				03F641F523DF2EA40095AE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F641F623DF2EA40095AE17 /* Build configuration list for PBXNativeTarget "SimpleFactoryPatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F641F723DF2EA40095AE17 /* Debug */,
+				03F641F823DF2EA40095AE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F641D523DF2EA20095AE17 /* Project object */;
+}
