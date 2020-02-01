@@ -24,6 +24,24 @@
 		03815CBE23E40744009F9A1C /* FPVoiceBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CBD23E40744009F9A1C /* FPVoiceBox.m */; };
 		03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CC023E407ED009F9A1C /* FPProjecter.m */; };
 		03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */; };
+		03815CEC23E5AD03009F9A1C /* TestPatterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CEB23E5AD03009F9A1C /* TestPatterns.m */; };
+		03815CF423E5AFD0009F9A1C /* TemplateMethodPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CF323E5AFD0009F9A1C /* TemplateMethodPattern.m */; };
+		03815CF723E5B001009F9A1C /* TMPHotDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CF623E5B001009F9A1C /* TMPHotDrink.m */; };
+		03815CFA23E5B15D009F9A1C /* TMPTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CF923E5B15D009F9A1C /* TMPTea.m */; };
+		03815CFD23E5B166009F9A1C /* TMPLatte.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CFC23E5B166009F9A1C /* TMPLatte.m */; };
+		03815D0023E5B174009F9A1C /* TMPAmericano.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815CFF23E5B174009F9A1C /* TMPAmericano.m */; };
+		03815D0423E5B8DD009F9A1C /* BridgePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D0323E5B8DD009F9A1C /* BridgePattern.m */; };
+		03815D0723E5B8F5009F9A1C /* BPShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D0623E5B8F5009F9A1C /* BPShape.m */; };
+		03815D0A23E5B91A009F9A1C /* BPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D0923E5B91A009F9A1C /* BPColor.m */; };
+		03815D0D23E5BA0F009F9A1C /* BPSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D0C23E5BA0F009F9A1C /* BPSquare.m */; };
+		03815D1023E5BA2E009F9A1C /* BPRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D0F23E5BA2E009F9A1C /* BPRectangle.m */; };
+		03815D1323E5BA3E009F9A1C /* BPCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1223E5BA3E009F9A1C /* BPCircle.m */; };
+		03815D1623E5BA5D009F9A1C /* BPRedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1523E5BA5D009F9A1C /* BPRedColor.m */; };
+		03815D1923E5BA70009F9A1C /* BPGreenColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1823E5BA70009F9A1C /* BPGreenColor.m */; };
+		03815D1C23E5BA7F009F9A1C /* BPBlueColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1B23E5BA7F009F9A1C /* BPBlueColor.m */; };
+		03815D2023E5BBBA009F9A1C /* FlyweightPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1F23E5BBBA009F9A1C /* FlyweightPattern.m */; };
+		03815D2323E5BC3D009F9A1C /* FPFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2223E5BC3D009F9A1C /* FPFlowerFactory.m */; };
+		03815D2623E5BCB4009F9A1C /* FPFLowerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */; };
 		03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E123DF2EA20095AE17 /* AppDelegate.m */; };
 		03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E423DF2EA20095AE17 /* SceneDelegate.m */; };
 		03F641E823DF2EA20095AE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E723DF2EA20095AE17 /* ViewController.m */; };
@@ -111,6 +129,42 @@
 		03815CC023E407ED009F9A1C /* FPProjecter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPProjecter.m; sourceTree = "<group>"; };
 		03815CC223E40858009F9A1C /* FPHomeDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeDeviceManager.h; sourceTree = "<group>"; };
 		03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeDeviceManager.m; sourceTree = "<group>"; };
+		03815CEA23E5AD03009F9A1C /* TestPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPatterns.h; sourceTree = "<group>"; };
+		03815CEB23E5AD03009F9A1C /* TestPatterns.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPatterns.m; sourceTree = "<group>"; };
+		03815CF223E5AFD0009F9A1C /* TemplateMethodPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateMethodPattern.h; sourceTree = "<group>"; };
+		03815CF323E5AFD0009F9A1C /* TemplateMethodPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodPattern.m; sourceTree = "<group>"; };
+		03815CF523E5B001009F9A1C /* TMPHotDrink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPHotDrink.h; sourceTree = "<group>"; };
+		03815CF623E5B001009F9A1C /* TMPHotDrink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPHotDrink.m; sourceTree = "<group>"; };
+		03815CF823E5B15D009F9A1C /* TMPTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPTea.h; sourceTree = "<group>"; };
+		03815CF923E5B15D009F9A1C /* TMPTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPTea.m; sourceTree = "<group>"; };
+		03815CFB23E5B166009F9A1C /* TMPLatte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPLatte.h; sourceTree = "<group>"; };
+		03815CFC23E5B166009F9A1C /* TMPLatte.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPLatte.m; sourceTree = "<group>"; };
+		03815CFE23E5B174009F9A1C /* TMPAmericano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPAmericano.h; sourceTree = "<group>"; };
+		03815CFF23E5B174009F9A1C /* TMPAmericano.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPAmericano.m; sourceTree = "<group>"; };
+		03815D0223E5B8DD009F9A1C /* BridgePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgePattern.h; sourceTree = "<group>"; };
+		03815D0323E5B8DD009F9A1C /* BridgePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePattern.m; sourceTree = "<group>"; };
+		03815D0523E5B8F5009F9A1C /* BPShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPShape.h; sourceTree = "<group>"; };
+		03815D0623E5B8F5009F9A1C /* BPShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPShape.m; sourceTree = "<group>"; };
+		03815D0823E5B91A009F9A1C /* BPColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPColor.h; sourceTree = "<group>"; };
+		03815D0923E5B91A009F9A1C /* BPColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPColor.m; sourceTree = "<group>"; };
+		03815D0B23E5BA0F009F9A1C /* BPSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPSquare.h; sourceTree = "<group>"; };
+		03815D0C23E5BA0F009F9A1C /* BPSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPSquare.m; sourceTree = "<group>"; };
+		03815D0E23E5BA2E009F9A1C /* BPRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPRectangle.h; sourceTree = "<group>"; };
+		03815D0F23E5BA2E009F9A1C /* BPRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPRectangle.m; sourceTree = "<group>"; };
+		03815D1123E5BA3E009F9A1C /* BPCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPCircle.h; sourceTree = "<group>"; };
+		03815D1223E5BA3E009F9A1C /* BPCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPCircle.m; sourceTree = "<group>"; };
+		03815D1423E5BA5D009F9A1C /* BPRedColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPRedColor.h; sourceTree = "<group>"; };
+		03815D1523E5BA5D009F9A1C /* BPRedColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPRedColor.m; sourceTree = "<group>"; };
+		03815D1723E5BA70009F9A1C /* BPGreenColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPGreenColor.h; sourceTree = "<group>"; };
+		03815D1823E5BA70009F9A1C /* BPGreenColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPGreenColor.m; sourceTree = "<group>"; };
+		03815D1A23E5BA7F009F9A1C /* BPBlueColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPBlueColor.h; sourceTree = "<group>"; };
+		03815D1B23E5BA7F009F9A1C /* BPBlueColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPBlueColor.m; sourceTree = "<group>"; };
+		03815D1E23E5BBBA009F9A1C /* FlyweightPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyweightPattern.h; sourceTree = "<group>"; };
+		03815D1F23E5BBBA009F9A1C /* FlyweightPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightPattern.m; sourceTree = "<group>"; };
+		03815D2123E5BC3D009F9A1C /* FPFlowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFlowerFactory.h; sourceTree = "<group>"; };
+		03815D2223E5BC3D009F9A1C /* FPFlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlowerFactory.m; sourceTree = "<group>"; };
+		03815D2423E5BCB4009F9A1C /* FPFLowerImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFLowerImageView.h; sourceTree = "<group>"; };
+		03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFLowerImageView.m; sourceTree = "<group>"; };
 		03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFactoryPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F641E023DF2EA20095AE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F641E123DF2EA20095AE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -226,7 +280,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03815C8F23E2B811009F9A1C /* BuilderPattern */ = {
+		03815C8F23E2B811009F9A1C /* 5.生成器模式BuilderPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03815C9023E2B944009F9A1C /* BPPhone.h */,
@@ -242,10 +296,10 @@
 				03815C9F23E2BBE3009F9A1C /* BuilderPattern.h */,
 				03815CA023E2BBE3009F9A1C /* BuilderPattern.m */,
 			);
-			path = BuilderPattern;
+			path = "5.生成器模式BuilderPattern";
 			sourceTree = "<group>";
 		};
-		03815CA523E3F484009F9A1C /* PrototypePattern */ = {
+		03815CA523E3F484009F9A1C /* 6.原型模式PrototypePattern */ = {
 			isa = PBXGroup;
 			children = (
 				03815CA223E3F47D009F9A1C /* PPUniversityInfo.h */,
@@ -255,10 +309,10 @@
 				03815CA923E3F66B009F9A1C /* PPResume.h */,
 				03815CAA23E3F66B009F9A1C /* PPResume.m */,
 			);
-			path = PrototypePattern;
+			path = "6.原型模式PrototypePattern";
 			sourceTree = "<group>";
 		};
-		03815CAF23E4065A009F9A1C /* FacadePattern */ = {
+		03815CAF23E4065A009F9A1C /* 1.外观模式FacadePattern */ = {
 			isa = PBXGroup;
 			children = (
 				03815CAC23E40651009F9A1C /* FacadePattern.h */,
@@ -278,7 +332,106 @@
 				03815CC223E40858009F9A1C /* FPHomeDeviceManager.h */,
 				03815CC323E40858009F9A1C /* FPHomeDeviceManager.m */,
 			);
-			path = FacadePattern;
+			path = "1.外观模式FacadePattern";
+			sourceTree = "<group>";
+		};
+		03815CED23E5AD08009F9A1C /* testPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				03F6426623E15AD50095AE17 /* TestPatternProtocol.h */,
+				03815CEA23E5AD03009F9A1C /* TestPatterns.h */,
+				03815CEB23E5AD03009F9A1C /* TestPatterns.m */,
+			);
+			path = testPatterns;
+			sourceTree = "<group>";
+		};
+		03815CEE23E5AE10009F9A1C /* 1.创建型设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				03815CA523E3F484009F9A1C /* 6.原型模式PrototypePattern */,
+				03815C8F23E2B811009F9A1C /* 5.生成器模式BuilderPattern */,
+				03F6423E23E134380095AE17 /* 4.单例模式SingletonPattern */,
+				03F6421923E07EC00095AE17 /* 3.抽象工厂模式AbstractFactoryPattern */,
+				03F6420C23E071B10095AE17 /* 2.工厂方法模式FactoryMethodPattern */,
+				03F6420B23DF30C70095AE17 /* 1.简单工厂模式SimpleFactoryPattern */,
+			);
+			path = "1.创建型设计模式";
+			sourceTree = "<group>";
+		};
+		03815CEF23E5AE3C009F9A1C /* 3.行为型设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				03815CF123E5AF92009F9A1C /* 1.模板方法模式TemplateMethodPattern */,
+			);
+			path = "3.行为型设计模式";
+			sourceTree = "<group>";
+		};
+		03815CF023E5AE53009F9A1C /* 2.结构型设计模式  */ = {
+			isa = PBXGroup;
+			children = (
+				03815D1D23E5BB9A009F9A1C /* 6.享元模式FlyweightPattern */,
+				03815D0123E5B845009F9A1C /* 3.桥接模式BridgePattern */,
+				03F6424A23E154A10095AE17 /* 5.装饰者模式DecoratorPattern */,
+				03F6424223E14BCF0095AE17 /* 4.代理模式ProxyPattern */,
+				03F6427623E170540095AE17 /* 2.适配器模式AdapterPattern */,
+				03815CAF23E4065A009F9A1C /* 1.外观模式FacadePattern */,
+			);
+			path = "2.结构型设计模式 ";
+			sourceTree = "<group>";
+		};
+		03815CF123E5AF92009F9A1C /* 1.模板方法模式TemplateMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815CF223E5AFD0009F9A1C /* TemplateMethodPattern.h */,
+				03815CF323E5AFD0009F9A1C /* TemplateMethodPattern.m */,
+				03815CF523E5B001009F9A1C /* TMPHotDrink.h */,
+				03815CF623E5B001009F9A1C /* TMPHotDrink.m */,
+				03815CF823E5B15D009F9A1C /* TMPTea.h */,
+				03815CF923E5B15D009F9A1C /* TMPTea.m */,
+				03815CFB23E5B166009F9A1C /* TMPLatte.h */,
+				03815CFC23E5B166009F9A1C /* TMPLatte.m */,
+				03815CFE23E5B174009F9A1C /* TMPAmericano.h */,
+				03815CFF23E5B174009F9A1C /* TMPAmericano.m */,
+			);
+			path = "1.模板方法模式TemplateMethodPattern";
+			sourceTree = "<group>";
+		};
+		03815D0123E5B845009F9A1C /* 3.桥接模式BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815D0223E5B8DD009F9A1C /* BridgePattern.h */,
+				03815D0323E5B8DD009F9A1C /* BridgePattern.m */,
+				03815D0823E5B91A009F9A1C /* BPColor.h */,
+				03815D0923E5B91A009F9A1C /* BPColor.m */,
+				03815D0523E5B8F5009F9A1C /* BPShape.h */,
+				03815D0623E5B8F5009F9A1C /* BPShape.m */,
+				03815D0B23E5BA0F009F9A1C /* BPSquare.h */,
+				03815D0C23E5BA0F009F9A1C /* BPSquare.m */,
+				03815D0E23E5BA2E009F9A1C /* BPRectangle.h */,
+				03815D0F23E5BA2E009F9A1C /* BPRectangle.m */,
+				03815D1123E5BA3E009F9A1C /* BPCircle.h */,
+				03815D1223E5BA3E009F9A1C /* BPCircle.m */,
+				03815D1423E5BA5D009F9A1C /* BPRedColor.h */,
+				03815D1523E5BA5D009F9A1C /* BPRedColor.m */,
+				03815D1723E5BA70009F9A1C /* BPGreenColor.h */,
+				03815D1823E5BA70009F9A1C /* BPGreenColor.m */,
+				03815D1A23E5BA7F009F9A1C /* BPBlueColor.h */,
+				03815D1B23E5BA7F009F9A1C /* BPBlueColor.m */,
+			);
+			path = "3.桥接模式BridgePattern";
+			sourceTree = "<group>";
+		};
+		03815D1D23E5BB9A009F9A1C /* 6.享元模式FlyweightPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815D1E23E5BBBA009F9A1C /* FlyweightPattern.h */,
+				03815D1F23E5BBBA009F9A1C /* FlyweightPattern.m */,
+				03815D2123E5BC3D009F9A1C /* FPFlowerFactory.h */,
+				03815D2223E5BC3D009F9A1C /* FPFlowerFactory.m */,
+				03815D2423E5BCB4009F9A1C /* FPFLowerImageView.h */,
+				03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */,
+			);
+			path = "6.享元模式FlyweightPattern";
 			sourceTree = "<group>";
 		};
 		03F641D423DF2EA20095AE17 = {
@@ -300,16 +453,10 @@
 		03F641DF23DF2EA20095AE17 /* SimpleFactoryPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
-				03815CAF23E4065A009F9A1C /* FacadePattern */,
-				03815CA523E3F484009F9A1C /* PrototypePattern */,
-				03815C8F23E2B811009F9A1C /* BuilderPattern */,
-				03F6427623E170540095AE17 /* AdapterPattern */,
-				03F6424A23E154A10095AE17 /* DecoratorPattern */,
-				03F6424223E14BCF0095AE17 /* ProxyPattern */,
-				03F6423E23E134380095AE17 /* SingletonPattern */,
-				03F6421923E07EC00095AE17 /* AbstractFactoryPattern */,
-				03F6420C23E071B10095AE17 /* FactoryMethodPattern */,
-				03F6420B23DF30C70095AE17 /* SimpleFactoryPattern */,
+				03815CEF23E5AE3C009F9A1C /* 3.行为型设计模式 */,
+				03815CF023E5AE53009F9A1C /* 2.结构型设计模式  */,
+				03815CEE23E5AE10009F9A1C /* 1.创建型设计模式 */,
+				03815CED23E5AD08009F9A1C /* testPatterns */,
 				03F641E023DF2EA20095AE17 /* AppDelegate.h */,
 				03F641E123DF2EA20095AE17 /* AppDelegate.m */,
 				03F641E323DF2EA20095AE17 /* SceneDelegate.h */,
@@ -321,12 +468,11 @@
 				03F641EE23DF2EA40095AE17 /* LaunchScreen.storyboard */,
 				03F641F123DF2EA40095AE17 /* Info.plist */,
 				03F641F223DF2EA40095AE17 /* main.m */,
-				03F6426623E15AD50095AE17 /* TestPatternProtocol.h */,
 			);
 			path = SimpleFactoryPatternDemo;
 			sourceTree = "<group>";
 		};
-		03F6420B23DF30C70095AE17 /* SimpleFactoryPattern */ = {
+		03F6420B23DF30C70095AE17 /* 1.简单工厂模式SimpleFactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F641F923DF2EB20095AE17 /* Phone.h */,
@@ -344,10 +490,10 @@
 				03F6426723E15AE90095AE17 /* SimpleFactoryPattern.h */,
 				03F6426823E15AE90095AE17 /* SimpleFactoryPattern.m */,
 			);
-			path = SimpleFactoryPattern;
+			path = "1.简单工厂模式SimpleFactoryPattern";
 			sourceTree = "<group>";
 		};
-		03F6420C23E071B10095AE17 /* FactoryMethodPattern */ = {
+		03F6420C23E071B10095AE17 /* 2.工厂方法模式FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6420D23E071EC0095AE17 /* FMPPhoneFacotry.h */,
@@ -361,10 +507,10 @@
 				03F6426A23E15B6C0095AE17 /* FactoryMethodPattern.h */,
 				03F6426B23E15B6C0095AE17 /* FactoryMethodPattern.m */,
 			);
-			path = FactoryMethodPattern;
+			path = "2.工厂方法模式FactoryMethodPattern";
 			sourceTree = "<group>";
 		};
-		03F6421923E07EC00095AE17 /* AbstractFactoryPattern */ = {
+		03F6421923E07EC00095AE17 /* 3.抽象工厂模式AbstractFactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6421A23E07ED60095AE17 /* AFPComputer.h */,
@@ -394,10 +540,10 @@
 				03F6426D23E15BE60095AE17 /* AbstractFactoryPattern.h */,
 				03F6426E23E15BE60095AE17 /* AbstractFactoryPattern.m */,
 			);
-			path = AbstractFactoryPattern;
+			path = "3.抽象工厂模式AbstractFactoryPattern";
 			sourceTree = "<group>";
 		};
-		03F6423E23E134380095AE17 /* SingletonPattern */ = {
+		03F6423E23E134380095AE17 /* 4.单例模式SingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6423F23E134620095AE17 /* SPLogManager.h */,
@@ -405,10 +551,10 @@
 				03F6427023E15CF90095AE17 /* SingletonPattern.h */,
 				03F6427123E15CF90095AE17 /* SingletonPattern.m */,
 			);
-			path = SingletonPattern;
+			path = "4.单例模式SingletonPattern";
 			sourceTree = "<group>";
 		};
-		03F6424223E14BCF0095AE17 /* ProxyPattern */ = {
+		03F6424223E14BCF0095AE17 /* 4.代理模式ProxyPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6424323E14C120095AE17 /* PPPaymentInterface.h */,
@@ -419,10 +565,10 @@
 				03F6427323E15D400095AE17 /* ProxyPattern.h */,
 				03F6427423E15D400095AE17 /* ProxyPattern.m */,
 			);
-			path = ProxyPattern;
+			path = "4.代理模式ProxyPattern";
 			sourceTree = "<group>";
 		};
-		03F6424A23E154A10095AE17 /* DecoratorPattern */ = {
+		03F6424A23E154A10095AE17 /* 5.装饰者模式DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6424B23E154B50095AE17 /* DPSalad.h */,
@@ -444,10 +590,10 @@
 				03F6426323E15AB80095AE17 /* DecoratorPattern.h */,
 				03F6426423E15AB80095AE17 /* DecoratorPattern.m */,
 			);
-			path = DecoratorPattern;
+			path = "5.装饰者模式DecoratorPattern";
 			sourceTree = "<group>";
 		};
-		03F6427623E170540095AE17 /* AdapterPattern */ = {
+		03F6427623E170540095AE17 /* 2.适配器模式AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
 				03F6427723E170650095AE17 /* AdapterPattern.h */,
@@ -461,7 +607,7 @@
 				03F6428423E1745B0095AE17 /* APAdaptor.h */,
 				03F6428523E1745B0095AE17 /* APAdaptor.m */,
 			);
-			path = AdapterPattern;
+			path = "2.适配器模式AdapterPattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,30 +680,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03815D0D23E5BA0F009F9A1C /* BPSquare.m in Sources */,
+				03815D1323E5BA3E009F9A1C /* BPCircle.m in Sources */,
 				03F6425023E154F20095AE17 /* DPSauceDecotator.m in Sources */,
 				03F641E823DF2EA20095AE17 /* ViewController.m in Sources */,
 				03F6423D23E080660095AE17 /* AFPHWFactory.m in Sources */,
 				03F6422823E07F2C0095AE17 /* AFPHWComputer.m in Sources */,
 				03F6426523E15AB80095AE17 /* DecoratorPattern.m in Sources */,
+				03815D1923E5BA70009F9A1C /* BPGreenColor.m in Sources */,
 				03F6424D23E154B50095AE17 /* DPSalad.m in Sources */,
 				03815C9823E2BA0C009F9A1C /* BPIphoneXRBuilder.m in Sources */,
+				03815D0723E5B8F5009F9A1C /* BPShape.m in Sources */,
 				03F6420123DF2EC20095AE17 /* MPhone.m in Sources */,
 				03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */,
 				03F6427223E15CF90095AE17 /* SingletonPattern.m in Sources */,
 				03815CB523E406A0009F9A1C /* FPAirConditioner.m in Sources */,
 				03F6425923E155910095AE17 /* DPBeefSalad.m in Sources */,
 				03F6425F23E156B00095AE17 /* DPPeanutButterSauceDecorator.m in Sources */,
+				03815D1023E5BA2E009F9A1C /* BPRectangle.m in Sources */,
 				03F6422E23E07FEF0095AE17 /* AFPIphone.m in Sources */,
+				03815D0A23E5B91A009F9A1C /* BPColor.m in Sources */,
+				03815D0423E5B8DD009F9A1C /* BridgePattern.m in Sources */,
 				03815CA423E3F47D009F9A1C /* PPUniversityInfo.m in Sources */,
 				03F6423723E0804F0095AE17 /* AFPAppleFactory.m in Sources */,
 				03F6424623E14C380095AE17 /* PPHouseProxy.m in Sources */,
 				03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */,
+				03815CFA23E5B15D009F9A1C /* TMPTea.m in Sources */,
 				03F641FB23DF2EB20095AE17 /* Phone.m in Sources */,
 				03815C9223E2B944009F9A1C /* BPPhone.m in Sources */,
 				03815CBB23E4072C009F9A1C /* FPDVDPlayer.m in Sources */,
 				03F6420A23DF2EE20095AE17 /* Store.m in Sources */,
 				03815CB823E4070F009F9A1C /* FPCDPlayer.m in Sources */,
 				03F6423123E07FF90095AE17 /* AFPMIPhone.m in Sources */,
+				03815CF723E5B001009F9A1C /* TMPHotDrink.m in Sources */,
 				03F6422223E07F0D0095AE17 /* AFPMacbookComputer.m in Sources */,
 				03F6421F23E07EE60095AE17 /* AFPPhone.m in Sources */,
 				03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */,
@@ -565,6 +720,7 @@
 				03F6426223E156FD0095AE17 /* DPBlueBerrySauceDecorator.m in Sources */,
 				03F6425623E155830095AE17 /* DPChickenSalad.m in Sources */,
 				03815C9523E2B97F009F9A1C /* BPBuilder.m in Sources */,
+				03815D1623E5BA5D009F9A1C /* BPRedColor.m in Sources */,
 				03815CA823E3F4F0009F9A1C /* PrototypePattern.m in Sources */,
 				03F6424923E14C880095AE17 /* PPHouseOwner.m in Sources */,
 				03F6422B23E07F9E0095AE17 /* AFPFactory.m in Sources */,
@@ -572,31 +728,39 @@
 				03815CAE23E40651009F9A1C /* FacadePattern.m in Sources */,
 				03F6420723DF2EDA0095AE17 /* PhoneFactory.m in Sources */,
 				03F6427923E170650095AE17 /* AdapterPattern.m in Sources */,
+				03815D1C23E5BA7F009F9A1C /* BPBlueColor.m in Sources */,
 				03F6425C23E156480095AE17 /* DPVinegarSauceDecorator.m in Sources */,
+				03815CF423E5AFD0009F9A1C /* TemplateMethodPattern.m in Sources */,
 				03F6424123E134620095AE17 /* SPLogManager.m in Sources */,
+				03815CEC23E5AD03009F9A1C /* TestPatterns.m in Sources */,
 				03815CB223E4066E009F9A1C /* FPHomeDevice.m in Sources */,
 				03F6428323E173810095AE17 /* APNewCache.m in Sources */,
 				03F6425323E155720095AE17 /* DPVegetableSalad.m in Sources */,
 				03F6427D23E170FF0095AE17 /* APOldCache.m in Sources */,
 				03F6421C23E07ED60095AE17 /* AFPComputer.m in Sources */,
 				03F6427523E15D400095AE17 /* ProxyPattern.m in Sources */,
+				03815D2623E5BCB4009F9A1C /* FPFLowerImageView.m in Sources */,
 				03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */,
 				03F6422523E07F210095AE17 /* AFPMIComputer.m in Sources */,
 				03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */,
 				03F6428623E1745B0095AE17 /* APAdaptor.m in Sources */,
 				03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */,
+				03815D2323E5BC3D009F9A1C /* FPFlowerFactory.m in Sources */,
 				03815C9E23E2BB20009F9A1C /* BPDirector.m in Sources */,
 				03F6426C23E15B6C0095AE17 /* FactoryMethodPattern.m in Sources */,
 				03815C9B23E2BA9C009F9A1C /* BPMI8Builder.m in Sources */,
 				03815CBE23E40744009F9A1C /* FPVoiceBox.m in Sources */,
 				03F6421823E072140095AE17 /* FMPHWPhoneFactory.m in Sources */,
 				03F6426923E15AE90095AE17 /* SimpleFactoryPattern.m in Sources */,
+				03815D0023E5B174009F9A1C /* TMPAmericano.m in Sources */,
 				03F6426F23E15BE60095AE17 /* AbstractFactoryPattern.m in Sources */,
 				03F6423423E080010095AE17 /* AFPHWPhone.m in Sources */,
+				03815CFD23E5B166009F9A1C /* TMPLatte.m in Sources */,
 				03F641F323DF2EA40095AE17 /* main.m in Sources */,
 				03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */,
 				03815CA123E2BBE3009F9A1C /* BuilderPattern.m in Sources */,
 				03F6423A23E0805C0095AE17 /* AFPMIFactory.m in Sources */,
+				03815D2023E5BBBA009F9A1C /* FlyweightPattern.m in Sources */,
 				03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

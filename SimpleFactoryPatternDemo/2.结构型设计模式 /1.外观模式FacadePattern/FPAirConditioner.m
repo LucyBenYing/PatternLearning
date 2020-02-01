@@ -9,23 +9,20 @@
 #import "FPAirConditioner.h"
 
 @implementation FPAirConditioner
--(void)on
-{
-    
-}
+ 
 
 -(void)startLowTemperatureMode
 {
-    
+    NSLog(@"%@",__func__);
 }
 
 -(void)startMIddleTemperatureMode
 {
-    
+       NSLog(@"%@",__func__);
 }
 
 -(void)startHighTemperatureMode
 {
-    
+       NSLog(@"%@",__func__);
 }
 @end

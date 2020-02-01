@@ -72,4 +72,28 @@
     [_projecter connetDVDPlayer:_dvdPlayer];
     [_dvdPlayer play];
 }
+
+-(void)offMovie
+{
+    [_voiceBox disconetDVDPlayer:_dvdPlayer];
+    [_voiceBox off];
+    [_projecter disconetDVDPlayer:_dvdPlayer];
+    [_projecter off];
+    [_dvdPlayer off];
+}
+
+-(void)allDeviceOn
+{
+    [_registerdDevices enumerateObjectsUsingBlock:^(FPHomeDevice * device, NSUInteger idx, BOOL * _Nonnull stop) {
+        [device on];
+    }];
+}
+
+-(void)allDeviceOff
+{
+    [_registerdDevices enumerateObjectsUsingBlock:^(  FPHomeDevice * obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj off];
+    }];
+}
+
 @end

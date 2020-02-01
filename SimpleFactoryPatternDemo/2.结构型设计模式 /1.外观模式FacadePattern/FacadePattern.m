@@ -7,7 +7,15 @@
 //
 
 #import "FacadePattern.h"
+#import "FPHomeDeviceManager.h"
 
 @implementation FacadePattern
-
++(void)test
+{
+    FPHomeDeviceManager *manager =  [FPHomeDeviceManager new]  ;
+    [manager playMovie];
+    
+    [manager allDeviceOff];
+    
+}
 @end

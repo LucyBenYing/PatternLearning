@@ -1,16 +1,16 @@
 //
-//  FacadePattern.h
+//  BPRectangle.h
 //  SimpleFactoryPatternDemo
 //
-//  Created by 鲁本英 on 2020/1/31.
+//  Created by 鲁本英 on 2020/2/1.
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BPShape.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FacadePattern : NSObject
+@interface BPRectangle : BPShape
 
 @end
 

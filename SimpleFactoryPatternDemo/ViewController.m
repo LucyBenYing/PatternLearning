@@ -7,15 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SimpleFactoryPattern.h"
-#import "FactoryMethodPattern.h"
-#import "AbstractFactoryPattern.h"
-#import "SingletonPattern.h"
-#import "ProxyPattern.h"
-#import "DecoratorPattern.h"
-#import "AdapterPattern.h"
-#import "BuilderPattern.h"
-#import "PrototypePattern.h"
+#import "TestPatterns.h"
 
 
 @interface ViewController ()
@@ -26,27 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-////   1、 简单工厂模式
-//    [self testSimpleFactoryPattern];
-////    2.工厂方法模式
-//    [self testFactoryMethodPattern];
-////    3.抽象工厂模式
-//    [self  testAbstractFactoryPattern];
-////    4.单例模式
-//    [self testSingletonPattern];
-////    5.代理模式
-//    [self testProxyPattern];
-//    6.装饰者模式 测试
-//    [DecoratorPattern test];
-//    7.适配器模式
-//    [AdapterPattern test];
-//    [self testCopy];
-    
-//    8. 生成器模式
-//    [BuilderPattern test];
-//   原型模式
-    [PrototypePattern test];
+    [TestPatterns test];
 }
+
 -(void)testCopy
 {
     NSArray *arr1 = @[@"1",@"2"];
@@ -59,38 +33,14 @@
     NSMutableArray *muttArr3 = [mutArr1 mutableCopy];
     NSLog(@"mutArr1 = %p\n mutArr2 = %p\n mutArr3 = %p",mutArr1,mutArr2,muttArr3);
     
-}
-#pragma mark - 1.简单工厂模式
--(void)testSimpleFactoryPattern
-{
-    [SimpleFactoryPattern test];
-}
+} 
+ 
 
-#pragma mark - 2.工厂方法模式
--(void)testFactoryMethodPattern
-{
-    [FactoryMethodPattern test];
-}
+ 
 
+ 
 
-#pragma mark - 3.抽象工厂模式
--(void)testAbstractFactoryPattern
-{
-    [AbstractFactoryPattern test];
-}
-
-#pragma mark - 4.单例模式
--(void)testSingletonPattern
-{
-    [SingletonPattern test];
-}
-
-#pragma mark - 代理模式
--(void)testProxyPattern
-{
-    [ProxyPattern test];
-}
-
+ 
 
 @end
 

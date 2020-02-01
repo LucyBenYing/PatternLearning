@@ -9,5 +9,12 @@
 #import "FPHomeDevice.h"
 
 @implementation FPHomeDevice
-
+-(void)on
+{
+    NSLog(@"===%@=== on",NSStringFromClass([self class]));
+}
+-(void)off
+{
+     NSLog(@"===%@=== off",NSStringFromClass([self class]));
+}
 @end
