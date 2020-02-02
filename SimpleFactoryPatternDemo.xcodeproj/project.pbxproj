@@ -42,6 +42,28 @@
 		03815D2023E5BBBA009F9A1C /* FlyweightPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D1F23E5BBBA009F9A1C /* FlyweightPattern.m */; };
 		03815D2323E5BC3D009F9A1C /* FPFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2223E5BC3D009F9A1C /* FPFlowerFactory.m */; };
 		03815D2623E5BCB4009F9A1C /* FPFLowerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */; };
+		03815D2A23E6A895009F9A1C /* StrategyPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2923E6A895009F9A1C /* StrategyPattern.m */; };
+		03815D2D23E6A8EA009F9A1C /* SPTwoIntOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2C23E6A8EA009F9A1C /* SPTwoIntOperation.m */; };
+		03815D3023E6A94C009F9A1C /* SPTwoIntOperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D2F23E6A94C009F9A1C /* SPTwoIntOperationAdd.m */; };
+		03815D3323E6A98F009F9A1C /* SPTwoIntOperationSubstract.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D3223E6A98F009F9A1C /* SPTwoIntOperationSubstract.m */; };
+		03815D3623E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D3523E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m */; };
+		03815D3923E6A9C6009F9A1C /* SPTwoIntOperationDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D3823E6A9C6009F9A1C /* SPTwoIntOperationDivision.m */; };
+		03815D3C23E6A9FB009F9A1C /* SPContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D3B23E6A9FB009F9A1C /* SPContext.m */; };
+		03815D4023E6B360009F9A1C /* CHainOfResponsibilityPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D3F23E6B360009F9A1C /* CHainOfResponsibilityPattern.m */; };
+		03815D4423E6B3AC009F9A1C /* CRPDispenseChainNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D4323E6B3AC009F9A1C /* CRPDispenseChainNode.m */; };
+		03815D4723E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D4623E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m */; };
+		03815D4A23E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D4923E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.m */; };
+		03815D4D23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D4C23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m */; };
+		03815D5023E6B9B9009F9A1C /* CRPATMDispenseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D4F23E6B9B9009F9A1C /* CRPATMDispenseChain.m */; };
+		03815D5323E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D5223E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m */; };
+		03815D5723E6BDF3009F9A1C /* CRPATMDispenseChainNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D5623E6BDF3009F9A1C /* CRPATMDispenseChainNew.m */; };
+		03815D5B23E6C428009F9A1C /* StatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D5A23E6C428009F9A1C /* StatePattern.m */; };
+		03815D5E23E6C473009F9A1C /* SPState.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D5D23E6C473009F9A1C /* SPState.m */; };
+		03815D6223E6C4A9009F9A1C /* SPProgramer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6123E6C4A9009F9A1C /* SPProgramer.m */; };
+		03815D6523E6C547009F9A1C /* SPStateAwake.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6423E6C547009F9A1C /* SPStateAwake.m */; };
+		03815D6823E6C617009F9A1C /* SPStateCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6723E6C617009F9A1C /* SPStateCoding.m */; };
+		03815D6B23E6C61E009F9A1C /* SPStateEating.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6A23E6C61E009F9A1C /* SPStateEating.m */; };
+		03815D6E23E6C626009F9A1C /* SPStateSleeping.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6D23E6C626009F9A1C /* SPStateSleeping.m */; };
 		03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E123DF2EA20095AE17 /* AppDelegate.m */; };
 		03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E423DF2EA20095AE17 /* SceneDelegate.m */; };
 		03F641E823DF2EA20095AE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E723DF2EA20095AE17 /* ViewController.m */; };
@@ -165,6 +187,52 @@
 		03815D2223E5BC3D009F9A1C /* FPFlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlowerFactory.m; sourceTree = "<group>"; };
 		03815D2423E5BCB4009F9A1C /* FPFLowerImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFLowerImageView.h; sourceTree = "<group>"; };
 		03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFLowerImageView.m; sourceTree = "<group>"; };
+		03815D2823E6A895009F9A1C /* StrategyPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyPattern.h; sourceTree = "<group>"; };
+		03815D2923E6A895009F9A1C /* StrategyPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPattern.m; sourceTree = "<group>"; };
+		03815D2B23E6A8EA009F9A1C /* SPTwoIntOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTwoIntOperation.h; sourceTree = "<group>"; };
+		03815D2C23E6A8EA009F9A1C /* SPTwoIntOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTwoIntOperation.m; sourceTree = "<group>"; };
+		03815D2E23E6A94C009F9A1C /* SPTwoIntOperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTwoIntOperationAdd.h; sourceTree = "<group>"; };
+		03815D2F23E6A94C009F9A1C /* SPTwoIntOperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTwoIntOperationAdd.m; sourceTree = "<group>"; };
+		03815D3123E6A98E009F9A1C /* SPTwoIntOperationSubstract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTwoIntOperationSubstract.h; sourceTree = "<group>"; };
+		03815D3223E6A98F009F9A1C /* SPTwoIntOperationSubstract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTwoIntOperationSubstract.m; sourceTree = "<group>"; };
+		03815D3423E6A9A9009F9A1C /* SPTwoIntOperationMultiply.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTwoIntOperationMultiply.h; sourceTree = "<group>"; };
+		03815D3523E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTwoIntOperationMultiply.m; sourceTree = "<group>"; };
+		03815D3723E6A9C6009F9A1C /* SPTwoIntOperationDivision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTwoIntOperationDivision.h; sourceTree = "<group>"; };
+		03815D3823E6A9C6009F9A1C /* SPTwoIntOperationDivision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTwoIntOperationDivision.m; sourceTree = "<group>"; };
+		03815D3A23E6A9FB009F9A1C /* SPContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPContext.h; sourceTree = "<group>"; };
+		03815D3B23E6A9FB009F9A1C /* SPContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPContext.m; sourceTree = "<group>"; };
+		03815D3E23E6B360009F9A1C /* CHainOfResponsibilityPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHainOfResponsibilityPattern.h; sourceTree = "<group>"; };
+		03815D3F23E6B360009F9A1C /* CHainOfResponsibilityPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHainOfResponsibilityPattern.m; sourceTree = "<group>"; };
+		03815D4123E6B391009F9A1C /* CRPDIspenseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDIspenseProtocol.h; sourceTree = "<group>"; };
+		03815D4223E6B3AC009F9A1C /* CRPDispenseChainNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDispenseChainNode.h; sourceTree = "<group>"; };
+		03815D4323E6B3AC009F9A1C /* CRPDispenseChainNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPDispenseChainNode.m; sourceTree = "<group>"; };
+		03815D4523E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDispenseChainNodeFor50Yuan.h; sourceTree = "<group>"; };
+		03815D4623E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPDispenseChainNodeFor50Yuan.m; sourceTree = "<group>"; };
+		03815D4823E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDispenseChainNodeFor20Yuan.h; sourceTree = "<group>"; };
+		03815D4923E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPDispenseChainNodeFor20Yuan.m; sourceTree = "<group>"; };
+		03815D4B23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDispenseChainNodeFor10Yuan.h; sourceTree = "<group>"; };
+		03815D4C23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPDispenseChainNodeFor10Yuan.m; sourceTree = "<group>"; };
+		03815D4E23E6B9B9009F9A1C /* CRPATMDispenseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPATMDispenseChain.h; sourceTree = "<group>"; };
+		03815D4F23E6B9B9009F9A1C /* CRPATMDispenseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPATMDispenseChain.m; sourceTree = "<group>"; };
+		03815D5123E6BCB8009F9A1C /* CRPDispenseChainNodeNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPDispenseChainNodeNew.h; sourceTree = "<group>"; };
+		03815D5223E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPDispenseChainNodeNew.m; sourceTree = "<group>"; };
+		03815D5523E6BDF3009F9A1C /* CRPATMDispenseChainNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPATMDispenseChainNew.h; sourceTree = "<group>"; };
+		03815D5623E6BDF3009F9A1C /* CRPATMDispenseChainNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRPATMDispenseChainNew.m; sourceTree = "<group>"; };
+		03815D5923E6C428009F9A1C /* StatePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatePattern.h; sourceTree = "<group>"; };
+		03815D5A23E6C428009F9A1C /* StatePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatePattern.m; sourceTree = "<group>"; };
+		03815D5C23E6C473009F9A1C /* SPState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPState.h; sourceTree = "<group>"; };
+		03815D5D23E6C473009F9A1C /* SPState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPState.m; sourceTree = "<group>"; };
+		03815D5F23E6C487009F9A1C /* SPActionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPActionProtocol.h; sourceTree = "<group>"; };
+		03815D6023E6C4A9009F9A1C /* SPProgramer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPProgramer.h; sourceTree = "<group>"; };
+		03815D6123E6C4A9009F9A1C /* SPProgramer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPProgramer.m; sourceTree = "<group>"; };
+		03815D6323E6C547009F9A1C /* SPStateAwake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPStateAwake.h; sourceTree = "<group>"; };
+		03815D6423E6C547009F9A1C /* SPStateAwake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateAwake.m; sourceTree = "<group>"; };
+		03815D6623E6C617009F9A1C /* SPStateCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPStateCoding.h; sourceTree = "<group>"; };
+		03815D6723E6C617009F9A1C /* SPStateCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateCoding.m; sourceTree = "<group>"; };
+		03815D6923E6C61E009F9A1C /* SPStateEating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPStateEating.h; sourceTree = "<group>"; };
+		03815D6A23E6C61E009F9A1C /* SPStateEating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateEating.m; sourceTree = "<group>"; };
+		03815D6C23E6C626009F9A1C /* SPStateSleeping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPStateSleeping.h; sourceTree = "<group>"; };
+		03815D6D23E6C626009F9A1C /* SPStateSleeping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateSleeping.m; sourceTree = "<group>"; };
 		03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFactoryPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F641E023DF2EA20095AE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F641E123DF2EA20095AE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -361,6 +429,9 @@
 		03815CEF23E5AE3C009F9A1C /* 3.行为型设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				03815D5823E6C410009F9A1C /* 4.状态模式StatePattern */,
+				03815D3D23E6B319009F9A1C /* 3.责任链模式ChainOfResponsibilityPattern */,
+				03815D2723E6A870009F9A1C /* 2.策略模式StrategyPattern */,
 				03815CF123E5AF92009F9A1C /* 1.模板方法模式TemplateMethodPattern */,
 			);
 			path = "3.行为型设计模式";
@@ -432,6 +503,81 @@
 				03815D2523E5BCB4009F9A1C /* FPFLowerImageView.m */,
 			);
 			path = "6.享元模式FlyweightPattern";
+			sourceTree = "<group>";
+		};
+		03815D2723E6A870009F9A1C /* 2.策略模式StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815D2823E6A895009F9A1C /* StrategyPattern.h */,
+				03815D2923E6A895009F9A1C /* StrategyPattern.m */,
+				03815D2B23E6A8EA009F9A1C /* SPTwoIntOperation.h */,
+				03815D2C23E6A8EA009F9A1C /* SPTwoIntOperation.m */,
+				03815D2E23E6A94C009F9A1C /* SPTwoIntOperationAdd.h */,
+				03815D2F23E6A94C009F9A1C /* SPTwoIntOperationAdd.m */,
+				03815D3123E6A98E009F9A1C /* SPTwoIntOperationSubstract.h */,
+				03815D3223E6A98F009F9A1C /* SPTwoIntOperationSubstract.m */,
+				03815D3423E6A9A9009F9A1C /* SPTwoIntOperationMultiply.h */,
+				03815D3523E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m */,
+				03815D3723E6A9C6009F9A1C /* SPTwoIntOperationDivision.h */,
+				03815D3823E6A9C6009F9A1C /* SPTwoIntOperationDivision.m */,
+				03815D3A23E6A9FB009F9A1C /* SPContext.h */,
+				03815D3B23E6A9FB009F9A1C /* SPContext.m */,
+			);
+			path = "2.策略模式StrategyPattern";
+			sourceTree = "<group>";
+		};
+		03815D3D23E6B319009F9A1C /* 3.责任链模式ChainOfResponsibilityPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815D5423E6BDB8009F9A1C /* 重构后的 */,
+				03815D3E23E6B360009F9A1C /* CHainOfResponsibilityPattern.h */,
+				03815D3F23E6B360009F9A1C /* CHainOfResponsibilityPattern.m */,
+				03815D4123E6B391009F9A1C /* CRPDIspenseProtocol.h */,
+				03815D4223E6B3AC009F9A1C /* CRPDispenseChainNode.h */,
+				03815D4323E6B3AC009F9A1C /* CRPDispenseChainNode.m */,
+				03815D4523E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.h */,
+				03815D4623E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m */,
+				03815D4823E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.h */,
+				03815D4923E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.m */,
+				03815D4B23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.h */,
+				03815D4C23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m */,
+				03815D4E23E6B9B9009F9A1C /* CRPATMDispenseChain.h */,
+				03815D4F23E6B9B9009F9A1C /* CRPATMDispenseChain.m */,
+			);
+			path = "3.责任链模式ChainOfResponsibilityPattern";
+			sourceTree = "<group>";
+		};
+		03815D5423E6BDB8009F9A1C /* 重构后的 */ = {
+			isa = PBXGroup;
+			children = (
+				03815D5123E6BCB8009F9A1C /* CRPDispenseChainNodeNew.h */,
+				03815D5223E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m */,
+				03815D5523E6BDF3009F9A1C /* CRPATMDispenseChainNew.h */,
+				03815D5623E6BDF3009F9A1C /* CRPATMDispenseChainNew.m */,
+			);
+			path = "重构后的";
+			sourceTree = "<group>";
+		};
+		03815D5823E6C410009F9A1C /* 4.状态模式StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				03815D5923E6C428009F9A1C /* StatePattern.h */,
+				03815D5A23E6C428009F9A1C /* StatePattern.m */,
+				03815D5C23E6C473009F9A1C /* SPState.h */,
+				03815D5D23E6C473009F9A1C /* SPState.m */,
+				03815D5F23E6C487009F9A1C /* SPActionProtocol.h */,
+				03815D6023E6C4A9009F9A1C /* SPProgramer.h */,
+				03815D6123E6C4A9009F9A1C /* SPProgramer.m */,
+				03815D6323E6C547009F9A1C /* SPStateAwake.h */,
+				03815D6423E6C547009F9A1C /* SPStateAwake.m */,
+				03815D6623E6C617009F9A1C /* SPStateCoding.h */,
+				03815D6723E6C617009F9A1C /* SPStateCoding.m */,
+				03815D6923E6C61E009F9A1C /* SPStateEating.h */,
+				03815D6A23E6C61E009F9A1C /* SPStateEating.m */,
+				03815D6C23E6C626009F9A1C /* SPStateSleeping.h */,
+				03815D6D23E6C626009F9A1C /* SPStateSleeping.m */,
+			);
+			path = "4.状态模式StatePattern";
 			sourceTree = "<group>";
 		};
 		03F641D423DF2EA20095AE17 = {
@@ -680,20 +826,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03815D6223E6C4A9009F9A1C /* SPProgramer.m in Sources */,
 				03815D0D23E5BA0F009F9A1C /* BPSquare.m in Sources */,
 				03815D1323E5BA3E009F9A1C /* BPCircle.m in Sources */,
 				03F6425023E154F20095AE17 /* DPSauceDecotator.m in Sources */,
 				03F641E823DF2EA20095AE17 /* ViewController.m in Sources */,
+				03815D5B23E6C428009F9A1C /* StatePattern.m in Sources */,
 				03F6423D23E080660095AE17 /* AFPHWFactory.m in Sources */,
 				03F6422823E07F2C0095AE17 /* AFPHWComputer.m in Sources */,
 				03F6426523E15AB80095AE17 /* DecoratorPattern.m in Sources */,
+				03815D5323E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m in Sources */,
 				03815D1923E5BA70009F9A1C /* BPGreenColor.m in Sources */,
 				03F6424D23E154B50095AE17 /* DPSalad.m in Sources */,
+				03815D4423E6B3AC009F9A1C /* CRPDispenseChainNode.m in Sources */,
 				03815C9823E2BA0C009F9A1C /* BPIphoneXRBuilder.m in Sources */,
 				03815D0723E5B8F5009F9A1C /* BPShape.m in Sources */,
 				03F6420123DF2EC20095AE17 /* MPhone.m in Sources */,
+				03815D3923E6A9C6009F9A1C /* SPTwoIntOperationDivision.m in Sources */,
 				03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */,
 				03F6427223E15CF90095AE17 /* SingletonPattern.m in Sources */,
+				03815D3C23E6A9FB009F9A1C /* SPContext.m in Sources */,
 				03815CB523E406A0009F9A1C /* FPAirConditioner.m in Sources */,
 				03F6425923E155910095AE17 /* DPBeefSalad.m in Sources */,
 				03F6425F23E156B00095AE17 /* DPPeanutButterSauceDecorator.m in Sources */,
@@ -701,21 +853,27 @@
 				03F6422E23E07FEF0095AE17 /* AFPIphone.m in Sources */,
 				03815D0A23E5B91A009F9A1C /* BPColor.m in Sources */,
 				03815D0423E5B8DD009F9A1C /* BridgePattern.m in Sources */,
+				03815D4A23E6B891009F9A1C /* CRPDispenseChainNodeFor20Yuan.m in Sources */,
 				03815CA423E3F47D009F9A1C /* PPUniversityInfo.m in Sources */,
 				03F6423723E0804F0095AE17 /* AFPAppleFactory.m in Sources */,
 				03F6424623E14C380095AE17 /* PPHouseProxy.m in Sources */,
 				03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */,
+				03815D4023E6B360009F9A1C /* CHainOfResponsibilityPattern.m in Sources */,
 				03815CFA23E5B15D009F9A1C /* TMPTea.m in Sources */,
 				03F641FB23DF2EB20095AE17 /* Phone.m in Sources */,
 				03815C9223E2B944009F9A1C /* BPPhone.m in Sources */,
 				03815CBB23E4072C009F9A1C /* FPDVDPlayer.m in Sources */,
 				03F6420A23DF2EE20095AE17 /* Store.m in Sources */,
 				03815CB823E4070F009F9A1C /* FPCDPlayer.m in Sources */,
+				03815D3323E6A98F009F9A1C /* SPTwoIntOperationSubstract.m in Sources */,
+				03815D3623E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m in Sources */,
 				03F6423123E07FF90095AE17 /* AFPMIPhone.m in Sources */,
 				03815CF723E5B001009F9A1C /* TMPHotDrink.m in Sources */,
+				03815D5023E6B9B9009F9A1C /* CRPATMDispenseChain.m in Sources */,
 				03F6422223E07F0D0095AE17 /* AFPMacbookComputer.m in Sources */,
 				03F6421F23E07EE60095AE17 /* AFPPhone.m in Sources */,
 				03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */,
+				03815D2A23E6A895009F9A1C /* StrategyPattern.m in Sources */,
 				03F641FE23DF2EBA0095AE17 /* Iphone.m in Sources */,
 				03F6426223E156FD0095AE17 /* DPBlueBerrySauceDecorator.m in Sources */,
 				03F6425623E155830095AE17 /* DPChickenSalad.m in Sources */,
@@ -730,21 +888,30 @@
 				03F6427923E170650095AE17 /* AdapterPattern.m in Sources */,
 				03815D1C23E5BA7F009F9A1C /* BPBlueColor.m in Sources */,
 				03F6425C23E156480095AE17 /* DPVinegarSauceDecorator.m in Sources */,
+				03815D3023E6A94C009F9A1C /* SPTwoIntOperationAdd.m in Sources */,
 				03815CF423E5AFD0009F9A1C /* TemplateMethodPattern.m in Sources */,
 				03F6424123E134620095AE17 /* SPLogManager.m in Sources */,
 				03815CEC23E5AD03009F9A1C /* TestPatterns.m in Sources */,
+				03815D6523E6C547009F9A1C /* SPStateAwake.m in Sources */,
+				03815D5723E6BDF3009F9A1C /* CRPATMDispenseChainNew.m in Sources */,
 				03815CB223E4066E009F9A1C /* FPHomeDevice.m in Sources */,
 				03F6428323E173810095AE17 /* APNewCache.m in Sources */,
 				03F6425323E155720095AE17 /* DPVegetableSalad.m in Sources */,
+				03815D6E23E6C626009F9A1C /* SPStateSleeping.m in Sources */,
 				03F6427D23E170FF0095AE17 /* APOldCache.m in Sources */,
 				03F6421C23E07ED60095AE17 /* AFPComputer.m in Sources */,
 				03F6427523E15D400095AE17 /* ProxyPattern.m in Sources */,
+				03815D6B23E6C61E009F9A1C /* SPStateEating.m in Sources */,
 				03815D2623E5BCB4009F9A1C /* FPFLowerImageView.m in Sources */,
 				03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */,
 				03F6422523E07F210095AE17 /* AFPMIComputer.m in Sources */,
 				03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */,
 				03F6428623E1745B0095AE17 /* APAdaptor.m in Sources */,
 				03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */,
+				03815D5E23E6C473009F9A1C /* SPState.m in Sources */,
+				03815D4D23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m in Sources */,
+				03815D6823E6C617009F9A1C /* SPStateCoding.m in Sources */,
+				03815D2D23E6A8EA009F9A1C /* SPTwoIntOperation.m in Sources */,
 				03815D2323E5BC3D009F9A1C /* FPFlowerFactory.m in Sources */,
 				03815C9E23E2BB20009F9A1C /* BPDirector.m in Sources */,
 				03F6426C23E15B6C0095AE17 /* FactoryMethodPattern.m in Sources */,
@@ -759,6 +926,7 @@
 				03F641F323DF2EA40095AE17 /* main.m in Sources */,
 				03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */,
 				03815CA123E2BBE3009F9A1C /* BuilderPattern.m in Sources */,
+				03815D4723E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m in Sources */,
 				03F6423A23E0805C0095AE17 /* AFPMIFactory.m in Sources */,
 				03815D2023E5BBBA009F9A1C /* FlyweightPattern.m in Sources */,
 				03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */,
