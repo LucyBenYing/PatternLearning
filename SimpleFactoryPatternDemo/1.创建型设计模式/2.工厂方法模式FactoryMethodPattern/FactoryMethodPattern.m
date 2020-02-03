@@ -10,22 +10,22 @@
 #import "FMPIPhoneFactory.h"
 #import "FMPMIPhoneFactory.h"
 #import "FMPHWPhoneFactory.h"
-#import "Store.h"
+#import "SFPStore.h"
 
 @implementation FactoryMethodPattern
 +(void)test
 {
-    Store *phoneStore = [Store new];
+    SFPStore *phoneStore = [SFPStore new];
     
-    Phone *iphone = [FMPIPhoneFactory createPhone];
+    SFPPhone *iphone = [FMPIPhoneFactory createPhone];
     [iphone packaging];
     [phoneStore sellPhone:iphone];
     
-    Phone *miPhone = [FMPMIPhoneFactory createPhone];
+    SFPPhone *miPhone = [FMPMIPhoneFactory createPhone];
     [miPhone packaging];
     [phoneStore sellPhone:miPhone];
     
-    Phone *hwPhone = [FMPHWPhoneFactory createPhone];
+    SFPPhone *hwPhone = [FMPHWPhoneFactory createPhone];
     [hwPhone packaging];
     [phoneStore sellPhone:hwPhone];
 }

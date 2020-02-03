@@ -6,27 +6,27 @@
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
-#import "PhoneFactory.h"
-#import "Iphone.h"
-#import "MPhone.h"
-#import "HWPhone.h"
-@implementation PhoneFactory
-+(Phone *)createPhoneWithPhoneType:(PhoneType)phoneType
+#import "SFPPhoneFactory.h"
+#import "SFPIphone.h"
+#import "SFPMPhone.h"
+#import "SFPHWPhone.h"
+@implementation SFPPhoneFactory
++(SFPPhone *)createPhoneWithPhoneType:(PhoneType)phoneType
 {
     switch (phoneType) {
         case PhoneTypeIphone:
             {
-                return [Iphone new];
+                return [SFPIphone new];
                   break;
             }
           case PhoneTypeMPhone:
         {
-            return [MPhone new];
+            return [SFPMPhone new];
             break;
         }
             case PhoneTypeHWPhone:
         {
-            return [HWPhone new];
+            return [SFPHWPhone new];
             break;
         }
             

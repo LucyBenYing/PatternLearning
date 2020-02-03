@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Phone.h"
+#import "SFPPhone.h"
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, PhoneType) {
     PhoneTypeIphone,
     PhoneTypeMPhone,
     PhoneTypeHWPhone,
 };
-@interface PhoneFactory : NSObject
-+(Phone *)createPhoneWithPhoneType:(PhoneType)phoneType;
+@interface SFPPhoneFactory : NSObject
++(SFPPhone *)createPhoneWithPhoneType:(PhoneType)phoneType;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -28,14 +28,18 @@
 #import "StrategyPattern.h"
 #import "CHainOfResponsibilityPattern.h"
 #import "StatePattern.h"
+#import "CommandPattern.h"
+#import "ObeserverPattern.h"
+#import "MediatorPattern.h"
+
 @implementation TestPatterns
 +(void)test
 {
 //    测试创建型设计模式
-//    [[TestPatterns new] testCreatePattern];
+    [[TestPatterns new] testCreatePattern];
 //
 //    测试结构型设计模式
-//        [[TestPatterns new] testConstructurePattern];
+        [[TestPatterns new] testConstructurePattern];
 //    测试行为型设计模式
     [[TestPatterns new] testHowPattern];
     
@@ -47,17 +51,17 @@
 -(void)testCreatePattern
 {
     //    1.简单工厂模式
-    //     [SimpleFactoryPattern test];
+         [SimpleFactoryPattern test];
     //    2.工厂方法模式
-    //     [FactoryMethodPattern test];
+         [FactoryMethodPattern test];
     //    3.抽象工厂模式
-    //     [AbstractFactoryPattern test];
+         [AbstractFactoryPattern test];
     //    4.单例模式
-    //    [SingletonPattern test];
+        [SingletonPattern test];
     //    5. 生成器模式
-//      [BuilderPattern test];
+      [BuilderPattern test];
      //   6.原型模式
-//    [PrototypePattern test];
+    [PrototypePattern test];
 }
 
 //测试结构型设计模式
@@ -65,15 +69,15 @@
 {
 
 //    1.外观模式
-//    [FacadePattern test];
+    [FacadePattern test];
 //    2.适配器模式
-//    [AdapterPattern test];
+    [AdapterPattern test];
 //    3.桥接模式
-//    [BridgePattern test];
+    [BridgePattern test];
         //    4.代理模式
-//        [ProxyPattern test];
+        [ProxyPattern test];
 //    5.装饰者模式
-//    [DecoratorPattern test];
+    [DecoratorPattern test];
 //    6.享元模式
     [FlyweightPattern test];
 }
@@ -83,13 +87,19 @@
 -(void)testHowPattern
 {
 //    1.模板方法模式
-//    [TemplateMethodPattern test];
+    [TemplateMethodPattern test];
 //2.策略模式
-//    [StrategyPattern test];
+    [StrategyPattern test];
 //    3.责任链模式
-//    [CHainOfResponsibilityPattern test];
+    [CHainOfResponsibilityPattern test];
 //    4.状态模式
     [StatePattern test];
+//    5.命令模式
+    [CommandPattern test];
+//    6.观察者模式
+    [ObeserverPattern test];
+//    7.中介者模式
+    [MediatorPattern test];
 }
 
 @end

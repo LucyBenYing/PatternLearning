@@ -7,12 +7,12 @@
 //
 
 #import "FMPIPhoneFactory.h"
-#import "Iphone.h"
+#import "SFPIphone.h"
 
 @implementation FMPIPhoneFactory
-+(Phone *)createPhone
++(SFPPhone *)createPhone
 {
-    Iphone *phone = [[Iphone alloc] init];
+    SFPIphone *phone = [[SFPIphone alloc] init];
     NSLog(@"iphone has been created");
     return phone;
 }

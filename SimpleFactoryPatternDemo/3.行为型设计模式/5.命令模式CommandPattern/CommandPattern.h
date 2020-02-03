@@ -1,16 +1,17 @@
 //
-//  AFPPhone.h
+//  CommandPattern.h
 //  SimpleFactoryPatternDemo
 //
-//  Created by 鲁本英 on 2020/1/28.
+//  Created by 鲁本英 on 2020/2/3.
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "TestPatternProtocol.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AFPPhone : NSObject
--(void)packaging;
+@interface CommandPattern : NSObject<TestPatternProtocol>
+
 @end
 
 NS_ASSUME_NONNULL_END

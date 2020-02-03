@@ -1,17 +1,17 @@
 //
-//  Phone.h
+//  OPFinancialAdviser.h
 //  SimpleFactoryPatternDemo
 //
-//  Created by 鲁本英 on 2020/1/27.
+//  Created by 鲁本英 on 2020/2/3.
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "OPSubject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Phone : NSObject
--(void)packaging;
+@interface OPFinancialAdviser : OPSubject
+
 @end
 
 NS_ASSUME_NONNULL_END

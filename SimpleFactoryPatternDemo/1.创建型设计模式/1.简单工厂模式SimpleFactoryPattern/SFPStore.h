@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Phone.h"
+#import "SFPPhone.h"
 #import "AFPComputer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Store : NSObject
--(void)sellPhone:(Phone *)phone;
+@interface SFPStore : NSObject
+-(void)sellPhone:(SFPPhone *)phone;
 -(void)sellComputer:(AFPComputer *)computer;
 @end
 

@@ -6,9 +6,9 @@
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
-#import "HWPhone.h"
+#import "SFPHWPhone.h"
 
-@implementation HWPhone
+@implementation SFPHWPhone
 -(void)packaging
 {
     NSLog(@"__%s__",__func__);

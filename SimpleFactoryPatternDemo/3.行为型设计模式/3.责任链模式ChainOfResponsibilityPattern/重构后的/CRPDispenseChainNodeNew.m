@@ -27,7 +27,7 @@
     if (amount >= _dispenseValue) {
         int count = amount / _dispenseValue;
         int remiander = amount % _dispenseValue;
-        NSLog(@"Dispensing %d of %d",count,_dispenseValue);
+        NSLog(@"Dispensing %d of %td",count,_dispenseValue);
         
         if (remiander != 0) {
             [_nextChainNode dispense:remiander];

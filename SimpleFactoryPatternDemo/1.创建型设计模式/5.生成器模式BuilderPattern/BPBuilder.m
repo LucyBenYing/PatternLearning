@@ -9,6 +9,27 @@
 #import "BPBuilder.h"
 
 @implementation BPBuilder
+-(void)createPhone
+{
+    
+}
+-(void)buildCPU
+{
+    
+}
+
+-(void)buildCamera
+{
+    
+}
+-(void)buildDisplay
+{
+    
+}
+-(void)buildCapacity
+{
+    
+}
 -(BPPhone *)obtainPhone
 {
     return nil;

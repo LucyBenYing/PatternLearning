@@ -7,11 +7,11 @@
 //
 
 #import "FMPMIPhoneFactory.h"
-#import "MPhone.h"
+#import "SFPMPhone.h"
 @implementation FMPMIPhoneFactory
-+(Phone *)createPhone
++(SFPPhone *)createPhone
 {
-    MPhone *phone = [[MPhone alloc] init];
+    SFPMPhone *phone = [[SFPMPhone alloc] init];
     return phone;
 }
 @end

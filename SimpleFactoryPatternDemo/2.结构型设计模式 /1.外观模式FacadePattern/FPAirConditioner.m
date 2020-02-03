@@ -13,16 +13,16 @@
 
 -(void)startLowTemperatureMode
 {
-    NSLog(@"%@",__func__);
+    NSLog(@"%s",__func__);
 }
 
 -(void)startMIddleTemperatureMode
 {
-       NSLog(@"%@",__func__);
+       NSLog(@"%s",__func__);
 }
 
 -(void)startHighTemperatureMode
 {
-       NSLog(@"%@",__func__);
+       NSLog(@"%s",__func__);
 }
 @end

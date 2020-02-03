@@ -7,7 +7,7 @@
 //
 
 #import "AbstractFactoryPattern.h"
-#import "Store.h"
+#import "SFPStore.h"
 
 #import "AFPComputer.h"
 #import "AFPHWFactory.h"
@@ -18,7 +18,7 @@
 @implementation AbstractFactoryPattern
 +(void)test
 {
-    Store *store = [Store new];
+    SFPStore *store = [SFPStore new];
        
        AFPComputer *mackBook = [AFPAppleFactory createComputer];
        [mackBook packaging];

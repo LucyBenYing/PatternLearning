@@ -9,7 +9,7 @@
 #import "FMPPhoneFacotry.h"
 
 @implementation FMPPhoneFacotry
-+(Phone *)createPhone
++(SFPPhone *)createPhone
 {
     //implemented by subclass
     return nil;

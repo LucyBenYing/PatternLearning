@@ -7,15 +7,15 @@
 //
 
 #import "SimpleFactoryPattern.h"
-#import "Store.h"
-#import "PhoneFactory.h"
+#import "SFPStore.h"
+#import "SFPPhoneFactory.h"
 
 @implementation SimpleFactoryPattern
 
 +(void)test
 {
-    Store *phoneStore = [Store new];
-     Phone *iphone = [PhoneFactory createPhoneWithPhoneType:PhoneTypeIphone];
+    SFPStore *phoneStore = [SFPStore new];
+     SFPPhone *iphone = [SFPPhoneFactory createPhoneWithPhoneType:PhoneTypeIphone];
      [iphone packaging];
      [phoneStore sellPhone:iphone];
 }

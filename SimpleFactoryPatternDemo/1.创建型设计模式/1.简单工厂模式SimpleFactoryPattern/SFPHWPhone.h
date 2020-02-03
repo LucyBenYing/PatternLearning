@@ -1,5 +1,5 @@
 //
-//  Iphone.h
+//  HWPhone.h
 //  SimpleFactoryPatternDemo
 //
 //  Created by 鲁本英 on 2020/1/27.
@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Phone.h"
-
+#import "SFPPhone.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Iphone : Phone
+@interface SFPHWPhone : SFPPhone
 
 @end
 

@@ -7,11 +7,11 @@
 //
 
 #import "FMPHWPhoneFactory.h"
-#import "HWPhone.h"
+#import "SFPHWPhone.h"
 @implementation FMPHWPhoneFactory
-+(Phone *)createPhone
++(SFPPhone *)createPhone
 {
-    HWPhone *phone = [HWPhone new];
+    SFPHWPhone *phone = [SFPHWPhone new];
     return phone;
 }
 

@@ -64,6 +64,27 @@
 		03815D6823E6C617009F9A1C /* SPStateCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6723E6C617009F9A1C /* SPStateCoding.m */; };
 		03815D6B23E6C61E009F9A1C /* SPStateEating.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6A23E6C61E009F9A1C /* SPStateEating.m */; };
 		03815D6E23E6C626009F9A1C /* SPStateSleeping.m in Sources */ = {isa = PBXBuildFile; fileRef = 03815D6D23E6C626009F9A1C /* SPStateSleeping.m */; };
+		03EE759B23E85928002EEBAB /* CommandPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE759A23E85928002EEBAB /* CommandPattern.m */; };
+		03EE759E23E85A62002EEBAB /* CPLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE759D23E85A62002EEBAB /* CPLight.m */; };
+		03EE75A123E85AA3002EEBAB /* CPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75A023E85AA3002EEBAB /* CPCommand.m */; };
+		03EE75A423E85AD9002EEBAB /* CPCommandLightOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75A323E85AD9002EEBAB /* CPCommandLightOn.m */; };
+		03EE75A723E85B45002EEBAB /* CPCommandLightOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75A623E85B45002EEBAB /* CPCommandLightOff.m */; };
+		03EE75AA23E85BA7002EEBAB /* CPRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75A923E85BA7002EEBAB /* CPRemoteControl.m */; };
+		03EE75AE23E86111002EEBAB /* ObeserverPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75AD23E86111002EEBAB /* ObeserverPattern.m */; };
+		03EE75B123E8615F002EEBAB /* OPObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75B023E8615F002EEBAB /* OPObserver.m */; };
+		03EE75B423E86168002EEBAB /* OPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75B323E86168002EEBAB /* OPSubject.m */; };
+		03EE75B723E86243002EEBAB /* OPInvestor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75B623E86243002EEBAB /* OPInvestor.m */; };
+		03EE75BA23E86392002EEBAB /* OPFinancialAdviser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75B923E86392002EEBAB /* OPFinancialAdviser.m */; };
+		03EE75BE23E86879002EEBAB /* MediatorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75BD23E86879002EEBAB /* MediatorPattern.m */; };
+		03EE75C123E868C2002EEBAB /* MPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75C023E868C2002EEBAB /* MPUser.m */; };
+		03EE75C423E868D7002EEBAB /* MPChatMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75C323E868D7002EEBAB /* MPChatMediator.m */; };
+		03EE75CF23E86E91002EEBAB /* SFPPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75C623E86E90002EEBAB /* SFPPhone.m */; };
+		03EE75D023E86E91002EEBAB /* SFPMPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75C823E86E90002EEBAB /* SFPMPhone.m */; };
+		03EE75D123E86E91002EEBAB /* SFPPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75CC23E86E90002EEBAB /* SFPPhoneFactory.m */; };
+		03EE75D223E86E91002EEBAB /* SFPIphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75CD23E86E90002EEBAB /* SFPIphone.m */; };
+		03EE75D323E86E91002EEBAB /* SFPStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75CE23E86E90002EEBAB /* SFPStore.m */; };
+		03EE75D623E86F8C002EEBAB /* SFPPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75D523E86F8C002EEBAB /* SFPPhone.m */; };
+		03EE75D923E87065002EEBAB /* SFPHWPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE75D723E87065002EEBAB /* SFPHWPhone.m */; };
 		03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E123DF2EA20095AE17 /* AppDelegate.m */; };
 		03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E423DF2EA20095AE17 /* SceneDelegate.m */; };
 		03F641E823DF2EA20095AE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641E723DF2EA20095AE17 /* ViewController.m */; };
@@ -71,12 +92,6 @@
 		03F641ED23DF2EA40095AE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F641EC23DF2EA40095AE17 /* Assets.xcassets */; };
 		03F641F023DF2EA40095AE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F641EE23DF2EA40095AE17 /* LaunchScreen.storyboard */; };
 		03F641F323DF2EA40095AE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641F223DF2EA40095AE17 /* main.m */; };
-		03F641FB23DF2EB20095AE17 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641FA23DF2EB20095AE17 /* Phone.m */; };
-		03F641FE23DF2EBA0095AE17 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F641FD23DF2EBA0095AE17 /* Iphone.m */; };
-		03F6420123DF2EC20095AE17 /* MPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420023DF2EC20095AE17 /* MPhone.m */; };
-		03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420323DF2ECF0095AE17 /* HWPhone.m */; };
-		03F6420723DF2EDA0095AE17 /* PhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420623DF2EDA0095AE17 /* PhoneFactory.m */; };
-		03F6420A23DF2EE20095AE17 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420923DF2EE20095AE17 /* Store.m */; };
 		03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6420E23E071EC0095AE17 /* FMPPhoneFacotry.m */; };
 		03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421123E071FD0095AE17 /* FMPIPhoneFactory.m */; };
 		03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6421423E072090095AE17 /* FMPMIPhoneFactory.m */; };
@@ -233,6 +248,47 @@
 		03815D6A23E6C61E009F9A1C /* SPStateEating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateEating.m; sourceTree = "<group>"; };
 		03815D6C23E6C626009F9A1C /* SPStateSleeping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPStateSleeping.h; sourceTree = "<group>"; };
 		03815D6D23E6C626009F9A1C /* SPStateSleeping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPStateSleeping.m; sourceTree = "<group>"; };
+		03EE759923E85928002EEBAB /* CommandPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandPattern.h; sourceTree = "<group>"; };
+		03EE759A23E85928002EEBAB /* CommandPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandPattern.m; sourceTree = "<group>"; };
+		03EE759C23E85A62002EEBAB /* CPLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLight.h; sourceTree = "<group>"; };
+		03EE759D23E85A62002EEBAB /* CPLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLight.m; sourceTree = "<group>"; };
+		03EE759F23E85AA3002EEBAB /* CPCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCommand.h; sourceTree = "<group>"; };
+		03EE75A023E85AA3002EEBAB /* CPCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCommand.m; sourceTree = "<group>"; };
+		03EE75A223E85AD9002EEBAB /* CPCommandLightOn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCommandLightOn.h; sourceTree = "<group>"; };
+		03EE75A323E85AD9002EEBAB /* CPCommandLightOn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCommandLightOn.m; sourceTree = "<group>"; };
+		03EE75A523E85B45002EEBAB /* CPCommandLightOff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCommandLightOff.h; sourceTree = "<group>"; };
+		03EE75A623E85B45002EEBAB /* CPCommandLightOff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCommandLightOff.m; sourceTree = "<group>"; };
+		03EE75A823E85BA7002EEBAB /* CPRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRemoteControl.h; sourceTree = "<group>"; };
+		03EE75A923E85BA7002EEBAB /* CPRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRemoteControl.m; sourceTree = "<group>"; };
+		03EE75AC23E86111002EEBAB /* ObeserverPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObeserverPattern.h; sourceTree = "<group>"; };
+		03EE75AD23E86111002EEBAB /* ObeserverPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObeserverPattern.m; sourceTree = "<group>"; };
+		03EE75AF23E8615F002EEBAB /* OPObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPObserver.h; sourceTree = "<group>"; };
+		03EE75B023E8615F002EEBAB /* OPObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPObserver.m; sourceTree = "<group>"; };
+		03EE75B223E86168002EEBAB /* OPSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPSubject.h; sourceTree = "<group>"; };
+		03EE75B323E86168002EEBAB /* OPSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPSubject.m; sourceTree = "<group>"; };
+		03EE75B523E86243002EEBAB /* OPInvestor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPInvestor.h; sourceTree = "<group>"; };
+		03EE75B623E86243002EEBAB /* OPInvestor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPInvestor.m; sourceTree = "<group>"; };
+		03EE75B823E86392002EEBAB /* OPFinancialAdviser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPFinancialAdviser.h; sourceTree = "<group>"; };
+		03EE75B923E86392002EEBAB /* OPFinancialAdviser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPFinancialAdviser.m; sourceTree = "<group>"; };
+		03EE75BC23E86879002EEBAB /* MediatorPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorPattern.h; sourceTree = "<group>"; };
+		03EE75BD23E86879002EEBAB /* MediatorPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorPattern.m; sourceTree = "<group>"; };
+		03EE75BF23E868C2002EEBAB /* MPUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPUser.h; sourceTree = "<group>"; };
+		03EE75C023E868C2002EEBAB /* MPUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPUser.m; sourceTree = "<group>"; };
+		03EE75C223E868D7002EEBAB /* MPChatMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPChatMediator.h; sourceTree = "<group>"; };
+		03EE75C323E868D7002EEBAB /* MPChatMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPChatMediator.m; sourceTree = "<group>"; };
+		03EE75C523E86E90002EEBAB /* SFPPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPPhoneFactory.h; sourceTree = "<group>"; };
+		03EE75C623E86E90002EEBAB /* SFPPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPPhone.m; sourceTree = "<group>"; };
+		03EE75C823E86E90002EEBAB /* SFPMPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPMPhone.m; sourceTree = "<group>"; };
+		03EE75C923E86E90002EEBAB /* SFPIphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPIphone.h; sourceTree = "<group>"; };
+		03EE75CA23E86E90002EEBAB /* SFPStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPStore.h; sourceTree = "<group>"; };
+		03EE75CB23E86E90002EEBAB /* SFPMPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPMPhone.h; sourceTree = "<group>"; };
+		03EE75CC23E86E90002EEBAB /* SFPPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPPhoneFactory.m; sourceTree = "<group>"; };
+		03EE75CD23E86E90002EEBAB /* SFPIphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPIphone.m; sourceTree = "<group>"; };
+		03EE75CE23E86E90002EEBAB /* SFPStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPStore.m; sourceTree = "<group>"; };
+		03EE75D423E86F8C002EEBAB /* SFPPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPPhone.h; sourceTree = "<group>"; };
+		03EE75D523E86F8C002EEBAB /* SFPPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPPhone.m; sourceTree = "<group>"; };
+		03EE75D723E87065002EEBAB /* SFPHWPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPHWPhone.m; sourceTree = "<group>"; };
+		03EE75D823E87065002EEBAB /* SFPHWPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPHWPhone.h; sourceTree = "<group>"; };
 		03F641DD23DF2EA20095AE17 /* SimpleFactoryPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFactoryPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F641E023DF2EA20095AE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F641E123DF2EA20095AE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -245,18 +301,6 @@
 		03F641EF23DF2EA40095AE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F641F123DF2EA40095AE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F641F223DF2EA40095AE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03F641F923DF2EB20095AE17 /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
-		03F641FA23DF2EB20095AE17 /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
-		03F641FC23DF2EBA0095AE17 /* Iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
-		03F641FD23DF2EBA0095AE17 /* Iphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
-		03F641FF23DF2EC20095AE17 /* MPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPhone.h; sourceTree = "<group>"; };
-		03F6420023DF2EC20095AE17 /* MPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPhone.m; sourceTree = "<group>"; };
-		03F6420223DF2ECF0095AE17 /* HWPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWPhone.h; sourceTree = "<group>"; };
-		03F6420323DF2ECF0095AE17 /* HWPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPhone.m; sourceTree = "<group>"; };
-		03F6420523DF2EDA0095AE17 /* PhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFactory.h; sourceTree = "<group>"; };
-		03F6420623DF2EDA0095AE17 /* PhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneFactory.m; sourceTree = "<group>"; };
-		03F6420823DF2EE20095AE17 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
-		03F6420923DF2EE20095AE17 /* Store.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 		03F6420D23E071EC0095AE17 /* FMPPhoneFacotry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPPhoneFacotry.h; sourceTree = "<group>"; };
 		03F6420E23E071EC0095AE17 /* FMPPhoneFacotry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPPhoneFacotry.m; sourceTree = "<group>"; };
 		03F6421023E071FD0095AE17 /* FMPIPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPIPhoneFactory.h; sourceTree = "<group>"; };
@@ -429,6 +473,9 @@
 		03815CEF23E5AE3C009F9A1C /* 3.行为型设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				03EE75BB23E86857002EEBAB /* 7.中介者模式MediatorPattern */,
+				03EE75AB23E860F0002EEBAB /* 6.观察者模式ObserverPattern */,
+				03EE759823E85907002EEBAB /* 5.命令模式CommandPattern */,
 				03815D5823E6C410009F9A1C /* 4.状态模式StatePattern */,
 				03815D3D23E6B319009F9A1C /* 3.责任链模式ChainOfResponsibilityPattern */,
 				03815D2723E6A870009F9A1C /* 2.策略模式StrategyPattern */,
@@ -580,6 +627,55 @@
 			path = "4.状态模式StatePattern";
 			sourceTree = "<group>";
 		};
+		03EE759823E85907002EEBAB /* 5.命令模式CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03EE759923E85928002EEBAB /* CommandPattern.h */,
+				03EE759A23E85928002EEBAB /* CommandPattern.m */,
+				03EE759C23E85A62002EEBAB /* CPLight.h */,
+				03EE759D23E85A62002EEBAB /* CPLight.m */,
+				03EE759F23E85AA3002EEBAB /* CPCommand.h */,
+				03EE75A023E85AA3002EEBAB /* CPCommand.m */,
+				03EE75A223E85AD9002EEBAB /* CPCommandLightOn.h */,
+				03EE75A323E85AD9002EEBAB /* CPCommandLightOn.m */,
+				03EE75A523E85B45002EEBAB /* CPCommandLightOff.h */,
+				03EE75A623E85B45002EEBAB /* CPCommandLightOff.m */,
+				03EE75A823E85BA7002EEBAB /* CPRemoteControl.h */,
+				03EE75A923E85BA7002EEBAB /* CPRemoteControl.m */,
+			);
+			path = "5.命令模式CommandPattern";
+			sourceTree = "<group>";
+		};
+		03EE75AB23E860F0002EEBAB /* 6.观察者模式ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03EE75AC23E86111002EEBAB /* ObeserverPattern.h */,
+				03EE75AD23E86111002EEBAB /* ObeserverPattern.m */,
+				03EE75AF23E8615F002EEBAB /* OPObserver.h */,
+				03EE75B023E8615F002EEBAB /* OPObserver.m */,
+				03EE75B223E86168002EEBAB /* OPSubject.h */,
+				03EE75B323E86168002EEBAB /* OPSubject.m */,
+				03EE75B523E86243002EEBAB /* OPInvestor.h */,
+				03EE75B623E86243002EEBAB /* OPInvestor.m */,
+				03EE75B823E86392002EEBAB /* OPFinancialAdviser.h */,
+				03EE75B923E86392002EEBAB /* OPFinancialAdviser.m */,
+			);
+			path = "6.观察者模式ObserverPattern";
+			sourceTree = "<group>";
+		};
+		03EE75BB23E86857002EEBAB /* 7.中介者模式MediatorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				03EE75BC23E86879002EEBAB /* MediatorPattern.h */,
+				03EE75BD23E86879002EEBAB /* MediatorPattern.m */,
+				03EE75BF23E868C2002EEBAB /* MPUser.h */,
+				03EE75C023E868C2002EEBAB /* MPUser.m */,
+				03EE75C223E868D7002EEBAB /* MPChatMediator.h */,
+				03EE75C323E868D7002EEBAB /* MPChatMediator.m */,
+			);
+			path = "7.中介者模式MediatorPattern";
+			sourceTree = "<group>";
+		};
 		03F641D423DF2EA20095AE17 = {
 			isa = PBXGroup;
 			children = (
@@ -621,18 +717,19 @@
 		03F6420B23DF30C70095AE17 /* 1.简单工厂模式SimpleFactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
-				03F641F923DF2EB20095AE17 /* Phone.h */,
-				03F641FA23DF2EB20095AE17 /* Phone.m */,
-				03F641FC23DF2EBA0095AE17 /* Iphone.h */,
-				03F641FD23DF2EBA0095AE17 /* Iphone.m */,
-				03F641FF23DF2EC20095AE17 /* MPhone.h */,
-				03F6420023DF2EC20095AE17 /* MPhone.m */,
-				03F6420223DF2ECF0095AE17 /* HWPhone.h */,
-				03F6420323DF2ECF0095AE17 /* HWPhone.m */,
-				03F6420523DF2EDA0095AE17 /* PhoneFactory.h */,
-				03F6420623DF2EDA0095AE17 /* PhoneFactory.m */,
-				03F6420823DF2EE20095AE17 /* Store.h */,
-				03F6420923DF2EE20095AE17 /* Store.m */,
+				03EE75D823E87065002EEBAB /* SFPHWPhone.h */,
+				03EE75D723E87065002EEBAB /* SFPHWPhone.m */,
+				03EE75D423E86F8C002EEBAB /* SFPPhone.h */,
+				03EE75D523E86F8C002EEBAB /* SFPPhone.m */,
+				03EE75C923E86E90002EEBAB /* SFPIphone.h */,
+				03EE75CD23E86E90002EEBAB /* SFPIphone.m */,
+				03EE75CB23E86E90002EEBAB /* SFPMPhone.h */,
+				03EE75C823E86E90002EEBAB /* SFPMPhone.m */,
+				03EE75C623E86E90002EEBAB /* SFPPhone.m */,
+				03EE75C523E86E90002EEBAB /* SFPPhoneFactory.h */,
+				03EE75CC23E86E90002EEBAB /* SFPPhoneFactory.m */,
+				03EE75CA23E86E90002EEBAB /* SFPStore.h */,
+				03EE75CE23E86E90002EEBAB /* SFPStore.m */,
 				03F6426723E15AE90095AE17 /* SimpleFactoryPattern.h */,
 				03F6426823E15AE90095AE17 /* SimpleFactoryPattern.m */,
 			);
@@ -837,11 +934,11 @@
 				03F6426523E15AB80095AE17 /* DecoratorPattern.m in Sources */,
 				03815D5323E6BCB8009F9A1C /* CRPDispenseChainNodeNew.m in Sources */,
 				03815D1923E5BA70009F9A1C /* BPGreenColor.m in Sources */,
+				03EE75D323E86E91002EEBAB /* SFPStore.m in Sources */,
 				03F6424D23E154B50095AE17 /* DPSalad.m in Sources */,
 				03815D4423E6B3AC009F9A1C /* CRPDispenseChainNode.m in Sources */,
 				03815C9823E2BA0C009F9A1C /* BPIphoneXRBuilder.m in Sources */,
 				03815D0723E5B8F5009F9A1C /* BPShape.m in Sources */,
-				03F6420123DF2EC20095AE17 /* MPhone.m in Sources */,
 				03815D3923E6A9C6009F9A1C /* SPTwoIntOperationDivision.m in Sources */,
 				03F6421523E072090095AE17 /* FMPMIPhoneFactory.m in Sources */,
 				03F6427223E15CF90095AE17 /* SingletonPattern.m in Sources */,
@@ -859,11 +956,13 @@
 				03F6424623E14C380095AE17 /* PPHouseProxy.m in Sources */,
 				03F6420F23E071EC0095AE17 /* FMPPhoneFacotry.m in Sources */,
 				03815D4023E6B360009F9A1C /* CHainOfResponsibilityPattern.m in Sources */,
+				03EE75CF23E86E91002EEBAB /* SFPPhone.m in Sources */,
 				03815CFA23E5B15D009F9A1C /* TMPTea.m in Sources */,
-				03F641FB23DF2EB20095AE17 /* Phone.m in Sources */,
+				03EE75A123E85AA3002EEBAB /* CPCommand.m in Sources */,
+				03EE759E23E85A62002EEBAB /* CPLight.m in Sources */,
 				03815C9223E2B944009F9A1C /* BPPhone.m in Sources */,
+				03EE75B723E86243002EEBAB /* OPInvestor.m in Sources */,
 				03815CBB23E4072C009F9A1C /* FPDVDPlayer.m in Sources */,
-				03F6420A23DF2EE20095AE17 /* Store.m in Sources */,
 				03815CB823E4070F009F9A1C /* FPCDPlayer.m in Sources */,
 				03815D3323E6A98F009F9A1C /* SPTwoIntOperationSubstract.m in Sources */,
 				03815D3623E6A9A9009F9A1C /* SPTwoIntOperationMultiply.m in Sources */,
@@ -874,22 +973,28 @@
 				03F6421F23E07EE60095AE17 /* AFPPhone.m in Sources */,
 				03815CC423E40858009F9A1C /* FPHomeDeviceManager.m in Sources */,
 				03815D2A23E6A895009F9A1C /* StrategyPattern.m in Sources */,
-				03F641FE23DF2EBA0095AE17 /* Iphone.m in Sources */,
+				03EE75C123E868C2002EEBAB /* MPUser.m in Sources */,
 				03F6426223E156FD0095AE17 /* DPBlueBerrySauceDecorator.m in Sources */,
+				03EE75B423E86168002EEBAB /* OPSubject.m in Sources */,
+				03EE75C423E868D7002EEBAB /* MPChatMediator.m in Sources */,
+				03EE75D023E86E91002EEBAB /* SFPMPhone.m in Sources */,
 				03F6425623E155830095AE17 /* DPChickenSalad.m in Sources */,
 				03815C9523E2B97F009F9A1C /* BPBuilder.m in Sources */,
 				03815D1623E5BA5D009F9A1C /* BPRedColor.m in Sources */,
 				03815CA823E3F4F0009F9A1C /* PrototypePattern.m in Sources */,
 				03F6424923E14C880095AE17 /* PPHouseOwner.m in Sources */,
 				03F6422B23E07F9E0095AE17 /* AFPFactory.m in Sources */,
+				03EE75AE23E86111002EEBAB /* ObeserverPattern.m in Sources */,
 				03815CAB23E3F66B009F9A1C /* PPResume.m in Sources */,
+				03EE759B23E85928002EEBAB /* CommandPattern.m in Sources */,
 				03815CAE23E40651009F9A1C /* FacadePattern.m in Sources */,
-				03F6420723DF2EDA0095AE17 /* PhoneFactory.m in Sources */,
 				03F6427923E170650095AE17 /* AdapterPattern.m in Sources */,
+				03EE75A723E85B45002EEBAB /* CPCommandLightOff.m in Sources */,
 				03815D1C23E5BA7F009F9A1C /* BPBlueColor.m in Sources */,
 				03F6425C23E156480095AE17 /* DPVinegarSauceDecorator.m in Sources */,
 				03815D3023E6A94C009F9A1C /* SPTwoIntOperationAdd.m in Sources */,
 				03815CF423E5AFD0009F9A1C /* TemplateMethodPattern.m in Sources */,
+				03EE75AA23E85BA7002EEBAB /* CPRemoteControl.m in Sources */,
 				03F6424123E134620095AE17 /* SPLogManager.m in Sources */,
 				03815CEC23E5AD03009F9A1C /* TestPatterns.m in Sources */,
 				03815D6523E6C547009F9A1C /* SPStateAwake.m in Sources */,
@@ -901,34 +1006,41 @@
 				03F6427D23E170FF0095AE17 /* APOldCache.m in Sources */,
 				03F6421C23E07ED60095AE17 /* AFPComputer.m in Sources */,
 				03F6427523E15D400095AE17 /* ProxyPattern.m in Sources */,
+				03EE75BE23E86879002EEBAB /* MediatorPattern.m in Sources */,
 				03815D6B23E6C61E009F9A1C /* SPStateEating.m in Sources */,
 				03815D2623E5BCB4009F9A1C /* FPFLowerImageView.m in Sources */,
 				03F641E223DF2EA20095AE17 /* AppDelegate.m in Sources */,
 				03F6422523E07F210095AE17 /* AFPMIComputer.m in Sources */,
+				03EE75BA23E86392002EEBAB /* OPFinancialAdviser.m in Sources */,
 				03815CC123E407ED009F9A1C /* FPProjecter.m in Sources */,
 				03F6428623E1745B0095AE17 /* APAdaptor.m in Sources */,
-				03F6420423DF2ECF0095AE17 /* HWPhone.m in Sources */,
 				03815D5E23E6C473009F9A1C /* SPState.m in Sources */,
 				03815D4D23E6B89C009F9A1C /* CRPDispenseChainNodeFor10Yuan.m in Sources */,
 				03815D6823E6C617009F9A1C /* SPStateCoding.m in Sources */,
+				03EE75D223E86E91002EEBAB /* SFPIphone.m in Sources */,
 				03815D2D23E6A8EA009F9A1C /* SPTwoIntOperation.m in Sources */,
 				03815D2323E5BC3D009F9A1C /* FPFlowerFactory.m in Sources */,
 				03815C9E23E2BB20009F9A1C /* BPDirector.m in Sources */,
 				03F6426C23E15B6C0095AE17 /* FactoryMethodPattern.m in Sources */,
 				03815C9B23E2BA9C009F9A1C /* BPMI8Builder.m in Sources */,
+				03EE75D623E86F8C002EEBAB /* SFPPhone.m in Sources */,
+				03EE75D123E86E91002EEBAB /* SFPPhoneFactory.m in Sources */,
 				03815CBE23E40744009F9A1C /* FPVoiceBox.m in Sources */,
 				03F6421823E072140095AE17 /* FMPHWPhoneFactory.m in Sources */,
 				03F6426923E15AE90095AE17 /* SimpleFactoryPattern.m in Sources */,
 				03815D0023E5B174009F9A1C /* TMPAmericano.m in Sources */,
 				03F6426F23E15BE60095AE17 /* AbstractFactoryPattern.m in Sources */,
+				03EE75D923E87065002EEBAB /* SFPHWPhone.m in Sources */,
 				03F6423423E080010095AE17 /* AFPHWPhone.m in Sources */,
 				03815CFD23E5B166009F9A1C /* TMPLatte.m in Sources */,
 				03F641F323DF2EA40095AE17 /* main.m in Sources */,
 				03F641E523DF2EA20095AE17 /* SceneDelegate.m in Sources */,
 				03815CA123E2BBE3009F9A1C /* BuilderPattern.m in Sources */,
 				03815D4723E6B882009F9A1C /* CRPDispenseChainNodeFor50Yuan.m in Sources */,
+				03EE75A423E85AD9002EEBAB /* CPCommandLightOn.m in Sources */,
 				03F6423A23E0805C0095AE17 /* AFPMIFactory.m in Sources */,
 				03815D2023E5BBBA009F9A1C /* FlyweightPattern.m in Sources */,
+				03EE75B123E8615F002EEBAB /* OPObserver.m in Sources */,
 				03F6421223E071FD0095AE17 /* FMPIPhoneFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

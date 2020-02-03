@@ -6,10 +6,10 @@
 //  Copyright © 2020 鲁本英. All rights reserved.
 //
 
-#import "Store.h"
+#import "SFPStore.h"
 
-@implementation Store
--(void)sellPhone:(Phone *)phone
+@implementation SFPStore
+-(void)sellPhone:(SFPPhone *)phone
 {
     NSLog(@"store begins to sell phone:%@",[phone class]);
 }
